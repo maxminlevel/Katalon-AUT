@@ -6,6 +6,7 @@
    <UUID>73d62cd6-74fc-4392-87e7-c3721fc63211</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/home/mml/Code/Katalon-Test-2/UAT Elemetary.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
