@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_GeneralAppearanceNotificationsPreferenc_3ce5ae</name>
+   <tag></tag>
+   <elementGuidId>8db0d0e5-01aa-4e36-832e-b7b146b7f770</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mx_TabbedView.mx_TabbedView_tabsOnLeft</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mx_TabbedView mx_TabbedView_tabsOnLeft</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>GeneralAppearanceNotificationsPreferencesVoice &amp; VideoSecurity &amp; PrivacyHelp &amp; AboutGeneralProfileDisplay Name@catalontest1:matrix.orgUploadCancelSaveAccountSet a new account password...Current passwordNew PasswordConfirm passwordChange PasswordEmail addressescatalontest1@gmail.comRemoveEmail AddressAddPhone numbers🇬🇧+44Phone NumberAddLanguage and regionEnglish (US) DiscoveryAgree to the identity server (vector.im) Terms of Service to allow yourself to be discoverable by email address or phone number.Accept Privacy Notice to continue:AcceptContinueIdentity server (vector.im)If you don't want to use vector.im to discover and be discoverable by existing contacts you know, enter another identity server below.Enter a new identity serverChangeUsing an identity server is optional. If you choose not to use an identity server, you won't be discoverable by other users and you won't be able to invite others by email or phone.Do not use an identity serverManage integrations(scalar.vector.im)Use an integration manager (scalar.vector.im) to manage bots, widgets, and sticker packs.Integration managers receive configuration data, and can modify widgets, send room invites, and set power levels on your behalf.Deactivate accountAccount managementDeactivating your account is a permanent action - be careful!Deactivate Account</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mx_Dialog_StaticContainer&quot;)/div[@class=&quot;mx_Dialog_wrapper mx_Dialog_staticWrapper&quot;]/div[@class=&quot;mx_Dialog&quot;]/div[@class=&quot;mx_UserSettingsDialog mx_Dialog_fixedWidth&quot;]/div[@class=&quot;mx_SettingsDialog_content&quot;]/div[@class=&quot;mx_TabbedView mx_TabbedView_tabsOnLeft&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div[2]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/following::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create a Group Chat'])[1]/following::div[18]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div[3]/div[2]/div</value>
+   </webElementXpaths>
+</WebElementEntity>
