@@ -135,49 +135,49 @@
       <guid>048631f5-c3d2-4350-a7aa-214a1ed7d738</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/Set Dark theme</testCaseId>
+      <testCaseId>Test Cases/9. Settings/Set Dark theme</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>338e3f69-4c6c-48a0-9b4b-54f7fad617d0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/Set Dark mode (button)</testCaseId>
+      <testCaseId>Test Cases/9. Settings/Set Dark mode (button)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4429e4bb-ccb2-4cca-87f9-0f8825806216</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/View keyboard shortcut</testCaseId>
+      <testCaseId>Test Cases/9. Settings/View keyboard shortcut</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>eaf9ca96-de08-46d6-86f7-e67b7655810a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/Change display name</testCaseId>
+      <testCaseId>Test Cases/9. Settings/Change display name</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3be12510-ccff-4d38-b378-1e880cc45684</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/Set Light theme</testCaseId>
+      <testCaseId>Test Cases/9. Settings/Set Light theme</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>42f01884-c8aa-4a9a-a199-34c3edb4673b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/Send feedback</testCaseId>
+      <testCaseId>Test Cases/9. Settings/Send feedback</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>daf411b4-9238-4c2b-aeb1-6130c1494590</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Settings/Change language to Vietnamese</testCaseId>
+      <testCaseId>Test Cases/9. Settings/Change language to Vietnamese</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>70e4cea7-990a-48a3-8eda-9cc25b12f723</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sign up/Sign up username fail (invalid email)</testCaseId>
+      <testCaseId>Test Cases/10. Sign up/Sign up username fail (invalid email)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>34aab68c-4ccc-47d0-a96c-545f521bec3c</guid>
