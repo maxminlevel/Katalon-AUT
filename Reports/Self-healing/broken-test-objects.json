@@ -19,6 +19,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Thang/Page_Element/div_Done_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thang/Logout/Page_Element/h2_Sign in",
+      "brokenLocator": "//section[@id\u003d\u0027matrixchat\u0027]/div/div/div[2]/div[2]/h2",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//h2",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Thang/Logout/Page_Element/h2_Sign in_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Khoa/Page_Element/div_Done",
+      "brokenLocator": "//section[@id\u003d\u0027matrixchat\u0027]/div/div/div[2]/div/div/div/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Blog\u0027])[1]/preceding::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Khoa/Page_Element/div_Done_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Khoa/Page_Element/div_Review_mx_SpaceButton_icon",
+      "brokenLocator": "//section[@id\u003d\u0027matrixchat\u0027]/div/div[2]/div/ul/div[2]/div/li[4]/div/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "id(\"matrixchat\")/div[@class\u003d\"mx_MatrixChat_wrapper\"]/div[@class\u003d\"mx_MatrixChat\"]/div[@class\u003d\"mx_LeftPanel_wrapper\"]/ul[@class\u003d\"mx_SpacePanel collapsed\"]/div[@class\u003d\"mx_AutoHideScrollbar mx_SpacePanel_spaceTreeWrapper\"]/div[@class\u003d\"mx_SpaceTreeLevel\"]/li[@class\u003d\"mx_SpaceItem mx_SpaceItem_new collapsed\"]/div[@class\u003d\"mx_AccessibleButton mx_SpaceButton mx_SpaceButton_new mx_SpaceButton_narrow\"]/div[@class\u003d\"mx_SpaceButton_selectionWrapper\"]/div[@class\u003d\"mx_SpaceButton_avatarWrapper\"]/div[@class\u003d\"mx_SpaceButton_avatarPlaceholder\"]/div[@class\u003d\"mx_SpaceButton_icon\"]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Khoa/Page_Element/div_Review_mx_SpaceButton_icon_BASIC.png"
     }
   ]
 }

@@ -1,0 +1,30 @@
+{"testCaseName":"Test Cases/6. Login/Login with email","testCaseId":"Test Cases/6. Login/Login with email"}
+{"testCaseName":"Test Cases/6. Login/Login with email fail (invalid user)","testCaseId":"Test Cases/6. Login/Login with email fail (invalid user)"}
+{"testCaseName":"Test Cases/6. Login/Login with email fail (wrong password)","testCaseId":"Test Cases/6. Login/Login with email fail (wrong password)"}
+{"testCaseName":"Test Cases/6. Login/Login with phone fail","testCaseId":"Test Cases/6. Login/Login with phone fail"}
+{"testCaseName":"Test Cases/6. Login/Login with username","testCaseId":"Test Cases/6. Login/Login with username"}
+{"testCaseName":"Test Cases/6. Login/Login with username fail (invalid user)","testCaseId":"Test Cases/6. Login/Login with username fail (invalid user)"}
+{"testCaseName":"Test Cases/6. Login/Login with username fail (wrong password)","testCaseId":"Test Cases/6. Login/Login with username fail (wrong password)"}
+{"testCaseName":"Test Cases/6. Login/Logout","testCaseId":"Test Cases/6. Login/Logout"}
+{"testCaseName":"Test Cases/1. Create Space/2. Create a private space","testCaseId":"Test Cases/1. Create Space/2. Create a private space"}
+{"testCaseName":"Test Cases/1. Create Space/3. Create an existed public space","testCaseId":"Test Cases/1. Create Space/3. Create an existed public space"}
+{"testCaseName":"Test Cases/1. Create Space/4. Create a space in a space","testCaseId":"Test Cases/1. Create Space/4. Create a space in a space"}
+{"testCaseName":"Test Cases/2. Create room/2. Create a private room","testCaseId":"Test Cases/2. Create room/2. Create a private room"}
+{"testCaseName":"Test Cases/2. Create room/3. Create an existed public room","testCaseId":"Test Cases/2. Create room/3. Create an existed public room"}
+{"testCaseName":"Test Cases/3. Join room/1. Join a public room","testCaseId":"Test Cases/3. Join room/1. Join a public room"}
+{"testCaseName":"Test Cases/3. Join room/2. Join a public room with URL","testCaseId":"Test Cases/3. Join room/2. Join a public room with URL"}
+{"testCaseName":"Test Cases/3. Join room/3. Join a not existed public room URL","testCaseId":"Test Cases/3. Join room/3. Join a not existed public room URL"}
+{"testCaseName":"Test Cases/4. Room Actions/1. Invite people to Space","testCaseId":"Test Cases/4. Room Actions/1. Invite people to Space"}
+{"testCaseName":"Test Cases/4. Room Actions/2. Export chat","testCaseId":"Test Cases/4. Room Actions/2. Export chat"}
+{"testCaseName":"Test Cases/4. Room Actions/3. Share room to Facebook","testCaseId":"Test Cases/4. Room Actions/3. Share room to Facebook"}
+{"testCaseName":"Test Cases/4. Room Actions/4. Turn off room notifications","testCaseId":"Test Cases/4. Room Actions/4. Turn off room notifications"}
+{"testCaseName":"Test Cases/Settings/Set Dark theme","testCaseId":"Test Cases/Settings/Set Dark theme"}
+{"testCaseName":"Test Cases/Settings/Set Dark mode (button)","testCaseId":"Test Cases/Settings/Set Dark mode (button)"}
+{"testCaseName":"Test Cases/Settings/View keyboard shortcut","testCaseId":"Test Cases/Settings/View keyboard shortcut"}
+{"testCaseName":"Test Cases/Settings/Change display name","testCaseId":"Test Cases/Settings/Change display name"}
+{"testCaseName":"Test Cases/Settings/Set Light theme","testCaseId":"Test Cases/Settings/Set Light theme"}
+{"testCaseName":"Test Cases/Settings/Send feedback","testCaseId":"Test Cases/Settings/Send feedback"}
+{"testCaseName":"Test Cases/Settings/Change language to Vietnamese","testCaseId":"Test Cases/Settings/Change language to Vietnamese"}
+{"testCaseName":"Test Cases/Sign up/Sign up username fail (invalid email)","testCaseId":"Test Cases/Sign up/Sign up username fail (invalid email)"}
+{"testCaseName":"Test Cases/5. Chat with account/2. Chat with small window","testCaseId":"Test Cases/5. Chat with account/2. Chat with small window"}
+{"testCaseName":"Test Cases/5. Chat with account/1. Chat with emoji","testCaseId":"Test Cases/5. Chat with account/1. Chat with emoji"}
