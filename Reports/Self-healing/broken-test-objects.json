@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Khoa/Page_Element  public-room-01/div_Join the discussion",
+      "brokenLocator": "//section[@id\u003d\u0027matrixchat\u0027]/div/div[2]/div[3]/div/div/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Historical\u0027])[1]/following::div[10]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Khoa/Page_Element  public-room-01/div_Join the discussion_neighbor.png"
+    }
+  ]
 }
