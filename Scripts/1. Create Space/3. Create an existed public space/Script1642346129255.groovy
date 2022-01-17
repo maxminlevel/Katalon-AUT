@@ -45,5 +45,3 @@ WebUI.setText(findTestObject('Object Repository/Khoa/Page_Element/input_Upload_s
 
 WebUI.click(findTestObject('Object Repository/Khoa/Page_Element/div_Create'))
 
-WebUI.click(findTestObject('Object Repository/Khoa/Page_Element/div_This room is public_mx_ContextualMenu_b_fc4f75'))
-

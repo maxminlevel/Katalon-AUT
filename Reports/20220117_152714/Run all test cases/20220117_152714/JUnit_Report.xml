@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Run all test cases" time="612.757" tests="20" failures="0" errors="0">
+   <testsuite name="Run all test cases" tests="20" failures="0" errors="0" time="612.757" skipped="0" timestamp="2022-01-17 15:27:17" hostname="mml - UbuntuMML" id="Test Suites/Run all test cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/mml/Code/Katalon-Test-2/Reports/20220117_152714/Run all test cases/20220117_152714"/>
+         <property name="logFiles" value="/home/mml/Code/Katalon-Test-2/Reports/20220117_152714/Run all test cases/20220117_152714/execution0.log"/>
+         <property name="attachments" value="/home/mml/Code/Katalon-Test-2/Reports/20220117_152714/Run all test cases/20220117_152714/1642408220265.png"/>
+         <property name="hostName" value="mml - UbuntuMML"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="bc30b62f087472888299b7d412fbc7ee"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/6. Login/Login with email" time="39.148" classname="Test Cases/6. Login/Login with email" status="PASSED">
+         <system-out><![CDATA[2022-01-17 15:27:18 - [TEST_CASE][PASSED] - Test Cases/6. Login/Login with email: Test Cases/6. Login/Login with email
+
+2022-01-17 15:27:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 15:27:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 15:27:19 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-01-17 15:27:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 15:27:20 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/"): Navigate to 'http://localhost:8080/#/' successfully
+
+2022-01-17 15:27:28 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/' successfully
+
+2022-01-17 15:27:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Toan/Page_Element/a_Sign In")): Object: 'Object Repository/Toan/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:27:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Toan/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:27:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Toan/Page_Element/select_UsernameEmail addressPhone"), "login_field_email", true): All options with value 'login_field_email' are selected in object 'Object Repository/Toan/Page_Element/select_UsernameEmail addressPhone'  using regular expression
+
+2022-01-17 15:27:34 - [MESSAGE][PASSED] - All options with value 'login_field_email' are selected in object 'Object Repository/Toan/Page_Element/select_UsernameEmail addressPhone'  using regular expression
+
+2022-01-17 15:27:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Toan/Page_Element/input_Sign in with_mx_Field_4"), "vvtoan35@gmail.com"): Text 'vvtoan35@gmail.com' is set on object 'Object Repository/Toan/Page_Element/input_Sign in with_mx_Field_4'
+
+2022-01-17 15:27:35 - [MESSAGE][PASSED] - Text 'vvtoan35@gmail.com' is set on object 'Object Repository/Toan/Page_Element/input_Sign in with_mx_Field_4'
+
+2022-01-17 15:27:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Toan/Page_Element/input_Email_password"), "/qFNx0rqStfHi8+9Smqoig=="): Text ****** has been set on object 'Object Repository/Toan/Page_Element/input_Email_password'
+
+2022-01-17 15:27:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Toan/Page_Element/input_Email_password'
+
+2022-01-17 15:27:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Toan/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Toan/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:27:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Toan/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:27:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Toan/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Toan/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:27:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Toan/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:27:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Toan/Page_Element/input_Security Key_mx_Field_5"), "KnX+oMcGoLhzlLGyvOrLmQQebG0szlrMTLR863vfIPXVmfHzh8u9s+kB9lNEfIqfngLe1vEhIAWKS019Kp4pPg=="): Text ****** has been set on object 'Object Repository/Toan/Page_Element/input_Security Key_mx_Field_5'
+
+2022-01-17 15:27:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Toan/Page_Element/input_Security Key_mx_Field_5'
+
+2022-01-17 15:27:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Toan/Page_Element/button_Continue")): Object: 'Object Repository/Toan/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Toan/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:27:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Toan/Page_Element/div_Done")): Object: 'Object Repository/Toan/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:27:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Toan/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:27:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-01-17 15:27:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/6. Login/Login with email fail (invalid user)" time="19.138" classname="Test Cases/6. Login/Login with email fail (invalid user)" status="PASSED">
+         <system-out><![CDATA[2022-01-17 15:27:57 - [TEST_CASE][PASSED] - Test Cases/6. Login/Login with email fail (invalid user): Test Cases/6. Login/Login with email fail (invalid user)
+
+2022-01-17 15:27:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 15:27:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 15:27:58 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-01-17 15:27:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 15:27:59 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 15:28:06 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 15:28:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/a_Sign In")): Object: 'Object Repository/Thang/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:28:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:28:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Thang/Page_Element/select_UsernameEmail addressPhone"), "login_field_email", true): All options with value 'login_field_email' are selected in object 'Object Repository/Thang/Page_Element/select_UsernameEmail addressPhone'  using regular expression
+
+2022-01-17 15:28:14 - [MESSAGE][PASSED] - All options with value 'login_field_email' are selected in object 'Object Repository/Thang/Page_Element/select_UsernameEmail addressPhone'  using regular expression
+
+2022-01-17 15:28:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Thang/Page_Element/input_Sign in with_mx_Field_4"), "catalontest123@gmail.com"): Text 'catalontest123@gmail.com' is set on object 'Object Repository/Thang/Page_Element/input_Sign in with_mx_Field_4'
+
+2022-01-17 15:28:15 - [MESSAGE][PASSED] - Text 'catalontest123@gmail.com' is set on object 'Object Repository/Thang/Page_Element/input_Sign in with_mx_Field_4'
+
+2022-01-17 15:28:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/div_Password")): Object: 'Object Repository/Thang/Page_Element/div_Password' is clicked on
+
+2022-01-17 15:28:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/div_Password' is clicked on
+
+2022-01-17 15:28:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Thang/Page_Element/input_Email_password"), "RigbBhfdqODKcJvMpwxiCQ=="): Text ****** has been set on object 'Object Repository/Thang/Page_Element/input_Email_password'
+
+2022-01-17 15:28:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Thang/Page_Element/input_Email_password'
+
+2022-01-17 15:28:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:28:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:28:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Thang/Page_Element/div_Incorrect username andor password")): Object 'Object Repository/Thang/Page_Element/div_Incorrect username andor password' is visible
+
+2022-01-17 15:28:16 - [MESSAGE][PASSED] - Object 'Object Repository/Thang/Page_Element/div_Incorrect username andor password' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/6. Login/Login with email fail (wrong password)" time="22.924" classname="Test Cases/6. Login/Login with email fail (wrong password)" status="PASSED">
+         <system-out><![CDATA[2022-01-17 15:28:17 - [TEST_CASE][PASSED] - Test Cases/6. Login/Login with email fail (wrong password): Test Cases/6. Login/Login with email fail (wrong password)
+
+2022-01-17 15:28:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 15:28:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 15:28:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 15:28:18 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-01-17 15:28:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 15:28:19 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 15:28:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 15:28:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/a_Sign In")): Object: 'Object Repository/Thang/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:28:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:28:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Thang/Page_Element/select_UsernameEmail addressPhone"), "login_field_email", true): All options with value 'login_field_email' are selected in object 'Object Repository/Thang/Page_Element/select_UsernameEmail addressPhone'  using regular expression
+
+2022-01-17 15:28:37 - [MESSAGE][PASSED] - All options with value 'login_field_email' are selected in object 'Object Repository/Thang/Page_Element/select_UsernameEmail addressPhone'  using regular expression
+
+2022-01-17 15:28:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Thang/Page_Element/input_Sign in with_mx_Field_4"), "catalontest1@gmail.com"): Text 'catalontest1@gmail.com' is set on object 'Object Repository/Thang/Page_Element/input_Sign in with_mx_Field_4'
+
+2022-01-17 15:28:38 - [MESSAGE][PASSED] - Text 'catalontest1@gmail.com' is set on object 'Object Repository/Thang/Page_Element/input_Sign in with_mx_Field_4'
+
+2022-01-17 15:28:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/div_Password")): Object: 'Object Repository/Thang/Page_Element/div_Password' is clicked on
+
+2022-01-17 15:28:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/div_Password' is clicked on
+
+2022-01-17 15:28:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Thang/Page_Element/input_Email_password"), "RigbBhfdqODKcJvMpwxiCQ=="): Text ****** has been set on object 'Object Repository/Thang/Page_Element/input_Email_password'
+
+2022-01-17 15:28:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Thang/Page_Element/input_Email_password'
+
+2022-01-17 15:28:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:28:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:28:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Thang/Page_Element/div_Incorrect username andor password")): Object 'Object Repository/Thang/Page_Element/div_Incorrect username andor password' is visible
+
+2022-01-17 15:28:39 - [MESSAGE][PASSED] - Object 'Object Repository/Thang/Page_Element/div_Incorrect username andor password' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/6. Login/Login with phone fail" time="13.209" classname="Test Cases/6. Login/Login with phone fail" status="PASSED">
+         <system-out><![CDATA[2022-01-17 15:28:40 - [TEST_CASE][PASSED] - Test Cases/6. Login/Login with phone fail: Test Cases/6. Login/Login with phone fail
+
+2022-01-17 15:28:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 15:28:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 15:28:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 15:28:40 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-01-17 15:28:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 15:28:41 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 15:28:45 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 15:28:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/a_Sign In")): Object: 'Object Repository/Thang/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:28:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:28:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Thang/Page_Element/select_UsernameEmail addressPhone"), "login_field_phone", true): All options with value 'login_field_phone' are selected in object 'Object Repository/Thang/Page_Element/select_UsernameEmail addressPhone'  using regular expression
+
+2022-01-17 15:28:50 - [MESSAGE][PASSED] - All options with value 'login_field_phone' are selected in object 'Object Repository/Thang/Page_Element/select_UsernameEmail addressPhone'  using regular expression
+
+2022-01-17 15:28:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/div_44")): Object: 'Object Repository/Thang/Page_Element/div_44' is clicked on
+
+2022-01-17 15:28:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/div_44' is clicked on
+
+2022-01-17 15:28:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/div_Vietnam (84)")): Object: 'Object Repository/Thang/Page_Element/div_Vietnam (84)' is clicked on
+
+2022-01-17 15:28:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/div_Vietnam (84)' is clicked on
+
+2022-01-17 15:28:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Thang/Page_Element/input__phoneNumber"), "333171965"): Text '333171965' is set on object 'Object Repository/Thang/Page_Element/input__phoneNumber'
+
+2022-01-17 15:28:52 - [MESSAGE][PASSED] - Text '333171965' is set on object 'Object Repository/Thang/Page_Element/input__phoneNumber'
+
+2022-01-17 15:28:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Thang/Page_Element/input_Phone_password"), "+zSzGdFpedZPFbqqaByDKA=="): Text ****** has been set on object 'Object Repository/Thang/Page_Element/input_Phone_password'
+
+2022-01-17 15:28:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Thang/Page_Element/input_Phone_password'
+
+2022-01-17 15:28:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:28:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:28:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Thang/Page_Element/div_Incorrect username andor password")): Object 'Object Repository/Thang/Page_Element/div_Incorrect username andor password' is visible
+
+2022-01-17 15:28:53 - [MESSAGE][PASSED] - Object 'Object Repository/Thang/Page_Element/div_Incorrect username andor password' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/6. Login/Login with username" time="49.131" classname="Test Cases/6. Login/Login with username" status="PASSED">
+         <system-out><![CDATA[2022-01-17 15:30:24 - [TEST_CASE][PASSED] - Test Cases/6. Login/Login with username: Test Cases/6. Login/Login with username
+
+2022-01-17 15:30:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 15:30:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 15:30:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 15:30:24 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-01-17 15:30:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 15:30:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-01-17 15:30:27 - [MESSAGE][PASSED] - Current window maximized
+
+2022-01-17 15:30:27 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 15:30:35 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 15:30:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/a_Sign In")): Object: 'Object Repository/Thang/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:30:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:30:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Thang/Page_Element/input_Sign in with_username"), "catalontest1"): Text 'catalontest1' is set on object 'Object Repository/Thang/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:30:40 - [MESSAGE][PASSED] - Text 'catalontest1' is set on object 'Object Repository/Thang/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:30:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Thang/Page_Element/input_Username_password"), "IVP3EFuX5Soi+L5J3PmWRw=="): Text ****** has been set on object 'Object Repository/Thang/Page_Element/input_Username_password'
+
+2022-01-17 15:30:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Thang/Page_Element/input_Username_password'
+
+2022-01-17 15:30:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:30:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:30:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Thang/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:30:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:30:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Thang/Page_Element/input_Security Key_mx_Field_4"), "KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="): Text ****** has been set on object 'Object Repository/Thang/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:31:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Thang/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:31:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/button_Continue")): Object: 'Object Repository/Thang/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:31:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:31:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/div_Done")): Object: 'Object Repository/Thang/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:31:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/div_Done' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/6. Login/Login with username fail (invalid user)" time="14.167" classname="Test Cases/6. Login/Login with username fail (invalid user)" status="PASSED">
+         <system-out><![CDATA[2022-01-17 15:31:14 - [TEST_CASE][PASSED] - Test Cases/6. Login/Login with username fail (invalid user): Test Cases/6. Login/Login with username fail (invalid user)
+
+2022-01-17 15:31:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 15:31:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 15:31:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 15:31:16 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-01-17 15:31:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 15:31:20 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 15:31:23 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 15:31:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/a_Sign In")): Object: 'Object Repository/Thang/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:31:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:31:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Thang/Page_Element/input_Sign in with_username"), "catalontest123"): Text 'catalontest123' is set on object 'Object Repository/Thang/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:31:27 - [MESSAGE][PASSED] - Text 'catalontest123' is set on object 'Object Repository/Thang/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:31:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Thang/Page_Element/input_Username_password"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/Thang/Page_Element/input_Username_password'
+
+2022-01-17 15:31:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Thang/Page_Element/input_Username_password'
+
+2022-01-17 15:31:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:31:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:31:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/div_Incorrect username andor password")): Object: 'Object Repository/Thang/Page_Element/div_Incorrect username andor password' is clicked on
+
+2022-01-17 15:31:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/div_Incorrect username andor password' is clicked on
+
+2022-01-17 15:31:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Thang/Page_Element/div_Incorrect username andor password")): Object 'Object Repository/Thang/Page_Element/div_Incorrect username andor password' is visible
+
+2022-01-17 15:31:28 - [MESSAGE][PASSED] - Object 'Object Repository/Thang/Page_Element/div_Incorrect username andor password' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/6. Login/Login with username fail (wrong password)" time="9.363" classname="Test Cases/6. Login/Login with username fail (wrong password)" status="PASSED">
+         <system-out><![CDATA[2022-01-17 15:31:28 - [TEST_CASE][PASSED] - Test Cases/6. Login/Login with username fail (wrong password): Test Cases/6. Login/Login with username fail (wrong password)
+
+2022-01-17 15:31:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 15:31:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 15:31:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 15:31:29 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-01-17 15:31:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 15:31:29 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 15:31:33 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 15:31:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/a_Sign In")): Object: 'Object Repository/Thang/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:31:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:31:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Thang/Page_Element/input_Sign in with_username"), "catalontest1"): Text 'catalontest1' is set on object 'Object Repository/Thang/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:31:37 - [MESSAGE][PASSED] - Text 'catalontest1' is set on object 'Object Repository/Thang/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:31:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Thang/Page_Element/input_Username_password"), "IVP3EFuX5SrLkSPBvPfvYA=="): Text ****** has been set on object 'Object Repository/Thang/Page_Element/input_Username_password'
+
+2022-01-17 15:31:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Thang/Page_Element/input_Username_password'
+
+2022-01-17 15:31:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:31:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:31:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Thang/Page_Element/div_Incorrect username andor password")): Object 'Object Repository/Thang/Page_Element/div_Incorrect username andor password' is visible
+
+2022-01-17 15:31:38 - [MESSAGE][PASSED] - Object 'Object Repository/Thang/Page_Element/div_Incorrect username andor password' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/6. Login/Logout" time="20.736" classname="Test Cases/6. Login/Logout" status="PASSED">
+         <system-out><![CDATA[2022-01-17 15:31:38 - [TEST_CASE][PASSED] - Test Cases/6. Login/Logout: Test Cases/6. Login/Logout
+
+2022-01-17 15:31:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("6. Login/Login with username"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/6. Login/Login with username' successfully
+
+2022-01-17 15:31:38 - [TEST_CASE][PASSED] - Test Cases/6. Login/Login with username: Test Cases/6. Login/Login with username
+
+2022-01-17 15:31:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 15:31:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 15:31:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 15:31:38 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-01-17 15:31:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 15:31:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-01-17 15:31:39 - [MESSAGE][PASSED] - Current window maximized
+
+2022-01-17 15:31:39 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/"): Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 15:31:42 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/' successfully
+
+2022-01-17 15:31:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/a_Sign In")): Object: 'Object Repository/Thang/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:31:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Thang/Page_Element/input_Sign in with_username"), "catalontest1"): Text 'catalontest1' is set on object 'Object Repository/Thang/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:31:47 - [MESSAGE][PASSED] - Text 'catalontest1' is set on object 'Object Repository/Thang/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:31:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Thang/Page_Element/input_Username_password"), "IVP3EFuX5Soi+L5J3PmWRw=="): Text ****** has been set on object 'Object Repository/Thang/Page_Element/input_Username_password'
+
+2022-01-17 15:31:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Thang/Page_Element/input_Username_password'
+
+2022-01-17 15:31:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:31:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:31:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Thang/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:31:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:31:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Thang/Page_Element/input_Security Key_mx_Field_4"), "KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="): Text ****** has been set on object 'Object Repository/Thang/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:31:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Thang/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:31:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/button_Continue")): Object: 'Object Repository/Thang/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:31:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Page_Element/div_Done")): Object: 'Object Repository/Thang/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:31:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/6. Login/Login with username' successfully
+
+2022-01-17 15:31:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Logout/Page_Element/img_Review_mx_BaseAvatar_image")): Object: 'Object Repository/Thang/Logout/Page_Element/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-17 15:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Logout/Page_Element/img_Review_mx_BaseAvatar_image' is clicked on
+
+2022-01-17 15:31:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Thang/Logout/Page_Element/span_Sign out")): Object: 'Object Repository/Thang/Logout/Page_Element/span_Sign out' is clicked on
+
+2022-01-17 15:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Thang/Logout/Page_Element/span_Sign out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1. Create Space/2. Create a private space" time="31.753" classname="Test Cases/1. Create Space/2. Create a private space" status="PASSED">
+         <system-out><![CDATA[2022-01-17 15:31:59 - [TEST_CASE][PASSED] - Test Cases/1. Create Space/2. Create a private space: Test Cases/1. Create Space/2. Create a private space
+
+2022-01-17 15:31:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 15:31:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 15:31:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 15:31:59 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-01-17 15:32:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 15:32:00 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/welcome"): Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:32:04 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:32:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/a_Sign In")): Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:32:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:32:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Sign in with_username"), "catalontest1"): Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:32:08 - [MESSAGE][PASSED] - Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:32:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Username_password"), "IVP3EFuX5Soi+L5J3PmWRw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:32:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:32:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:32:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:32:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:32:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4"), "KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:32:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:32:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/button_Continue")): Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:32:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Done")): Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:32:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:32:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Review_mx_SpaceButton_icon")): Object: 'Object Repository/Khoa/Page_Element/div_Review_mx_SpaceButton_icon' is clicked on
+
+2022-01-17 15:32:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Review_mx_SpaceButton_icon' is clicked on
+
+2022-01-17 15:32:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_PrivateInvite only, best for yourself or teams")): Object: 'Object Repository/Khoa/Page_Element/div_PrivateInvite only, best for yourself or teams' is clicked on
+
+2022-01-17 15:32:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_PrivateInvite only, best for yourself or teams' is clicked on
+
+2022-01-17 15:32:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Upload_spaceName"), "Private Space 0001"): Text 'Private Space 0001' is set on object 'Object Repository/Khoa/Page_Element/input_Upload_spaceName'
+
+2022-01-17 15:32:27 - [MESSAGE][PASSED] - Text 'Private Space 0001' is set on object 'Object Repository/Khoa/Page_Element/input_Upload_spaceName'
+
+2022-01-17 15:32:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Create")): Object: 'Object Repository/Khoa/Page_Element/div_Create' is clicked on
+
+2022-01-17 15:32:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Create' is clicked on
+
+2022-01-17 15:32:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  Empty room/div_Just meA private space to organize your rooms")): Object: 'Object Repository/Khoa/Page_Element  Empty room/div_Just meA private space to organize your rooms' is clicked on
+
+2022-01-17 15:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  Empty room/div_Just meA private space to organize your rooms' is clicked on
+
+2022-01-17 15:32:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  Empty room/div_Skip for now")): Object: 'Object Repository/Khoa/Page_Element  Empty room/div_Skip for now' is clicked on
+
+2022-01-17 15:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  Empty room/div_Skip for now' is clicked on
+
+2022-01-17 15:32:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  Empty room/div_Invite_mx_AccessibleButton mx_SpaceRoom_87964d")): Object: 'Object Repository/Khoa/Page_Element  Empty room/div_Invite_mx_AccessibleButton mx_SpaceRoom_87964d' is clicked on
+
+2022-01-17 15:32:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  Empty room/div_Invite_mx_AccessibleButton mx_SpaceRoom_87964d' is clicked on
+
+2022-01-17 15:32:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  Empty room/div_Leave Space")): Object: 'Object Repository/Khoa/Page_Element  Empty room/div_Leave Space' is clicked on
+
+2022-01-17 15:32:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  Empty room/div_Leave Space' is clicked on
+
+2022-01-17 15:32:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  Empty room/button_Leave space")): Object: 'Object Repository/Khoa/Page_Element  Empty room/button_Leave space' is clicked on
+
+2022-01-17 15:32:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  Empty room/button_Leave space' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1. Create Space/3. Create an existed public space" time="19.865" classname="Test Cases/1. Create Space/3. Create an existed public space" status="PASSED">
+         <system-out><![CDATA[2022-01-17 15:32:30 - [TEST_CASE][PASSED] - Test Cases/1. Create Space/3. Create an existed public space: Test Cases/1. Create Space/3. Create an existed public space
+
+2022-01-17 15:32:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 15:32:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 15:32:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 15:32:31 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-01-17 15:32:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 15:32:32 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/welcome"): Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:32:37 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:32:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/a_Sign In")): Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:32:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:32:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Sign in with_username"), "catalontest1"): Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:32:41 - [MESSAGE][PASSED] - Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:32:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Username_password"), "IVP3EFuX5Soi+L5J3PmWRw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:32:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:32:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:32:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:32:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:32:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4"), "KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:32:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:32:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/button_Continue")): Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:32:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Done")): Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:32:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Review_mx_SpaceButton_icon")): Object: 'Object Repository/Khoa/Page_Element/div_Review_mx_SpaceButton_icon' is clicked on
+
+2022-01-17 15:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Review_mx_SpaceButton_icon' is clicked on
+
+2022-01-17 15:32:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_PublicOpen space for anyone, best for c_08629a")): Object: 'Object Repository/Khoa/Page_Element/div_PublicOpen space for anyone, best for c_08629a' is clicked on
+
+2022-01-17 15:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_PublicOpen space for anyone, best for c_08629a' is clicked on
+
+2022-01-17 15:32:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Upload_spaceName"), "Existed Public Space 00001"): Text 'Existed Public Space 00001' is set on object 'Object Repository/Khoa/Page_Element/input_Upload_spaceName'
+
+2022-01-17 15:32:50 - [MESSAGE][PASSED] - Text 'Existed Public Space 00001' is set on object 'Object Repository/Khoa/Page_Element/input_Upload_spaceName'
+
+2022-01-17 15:32:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Create")): Object: 'Object Repository/Khoa/Page_Element/div_Create' is clicked on
+
+2022-01-17 15:32:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Create' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1. Create Space/4. Create a space in a space" time="21.675" classname="Test Cases/1. Create Space/4. Create a space in a space" status="PASSED">
+         <system-out><![CDATA[2022-01-17 15:32:50 - [TEST_CASE][PASSED] - Test Cases/1. Create Space/4. Create a space in a space: Test Cases/1. Create Space/4. Create a space in a space
+
+2022-01-17 15:32:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 15:32:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 15:32:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 15:32:51 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-01-17 15:32:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 15:32:51 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/welcome"): Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:32:54 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:32:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/a_Sign In")): Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:32:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Sign in with_username"), "catalontest1"): Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:32:58 - [MESSAGE][PASSED] - Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:32:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Username_password"), "IVP3EFuX5Soi+L5J3PmWRw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:32:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:32:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:32:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:33:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:33:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4"), "KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:33:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:33:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/button_Continue")): Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:33:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:33:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Done")): Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:33:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:33:06 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Khoa/Page_Element/span_P")): Object: 'Object Repository/Khoa/Page_Element/span_P' is right clicked on
+
+2022-01-17 15:33:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/span_P' is right clicked on
+
+2022-01-17 15:33:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/span_Space")): Object: 'Object Repository/Khoa/Page_Element/span_Space' is clicked on
+
+2022-01-17 15:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/span_Space' is clicked on
+
+2022-01-17 15:33:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Upload_spaceName"), "Space In Space"): Text 'Space In Space' is set on object 'Object Repository/Khoa/Page_Element/input_Upload_spaceName'
+
+2022-01-17 15:33:07 - [MESSAGE][PASSED] - Text 'Space In Space' is set on object 'Object Repository/Khoa/Page_Element/input_Upload_spaceName'
+
+2022-01-17 15:33:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Add")): Object: 'Object Repository/Khoa/Page_Element/div_Add' is clicked on
+
+2022-01-17 15:33:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Add' is clicked on
+
+2022-01-17 15:33:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  Space In Space/div_Just meA private space to organize your rooms")): Object: 'Object Repository/Khoa/Page_Element  Space In Space/div_Just meA private space to organize your rooms' is clicked on
+
+2022-01-17 15:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  Space In Space/div_Just meA private space to organize your rooms' is clicked on
+
+2022-01-17 15:33:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  Space In Space/div_Skip for now")): Object: 'Object Repository/Khoa/Page_Element  Space In Space/div_Skip for now' is clicked on
+
+2022-01-17 15:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  Space In Space/div_Skip for now' is clicked on
+
+2022-01-17 15:33:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  Space In Space/div_Invite_mx_AccessibleButton mx_SpaceRoom_87964d")): Object: 'Object Repository/Khoa/Page_Element  Space In Space/div_Invite_mx_AccessibleButton mx_SpaceRoom_87964d' is clicked on
+
+2022-01-17 15:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  Space In Space/div_Invite_mx_AccessibleButton mx_SpaceRoom_87964d' is clicked on
+
+2022-01-17 15:33:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  Space In Space/div_Leave Space")): Object: 'Object Repository/Khoa/Page_Element  Space In Space/div_Leave Space' is clicked on
+
+2022-01-17 15:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  Space In Space/div_Leave Space' is clicked on
+
+2022-01-17 15:33:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  Space In Space/button_Leave space")): Object: 'Object Repository/Khoa/Page_Element  Space In Space/button_Leave space' is clicked on
+
+2022-01-17 15:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  Space In Space/button_Leave space' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2. Create room/2. Create a private room" time="23.03" classname="Test Cases/2. Create room/2. Create a private room" status="PASSED">
+         <system-out><![CDATA[2022-01-17 15:33:12 - [TEST_CASE][PASSED] - Test Cases/2. Create room/2. Create a private room: Test Cases/2. Create room/2. Create a private room
+
+2022-01-17 15:33:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 15:33:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 15:33:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 15:33:13 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-01-17 15:33:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 15:33:14 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/welcome"): Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:33:17 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:33:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/a_Sign In")): Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:33:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Sign in with_username"), "catalontest1"): Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:33:21 - [MESSAGE][PASSED] - Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:33:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Username_password"), "IVP3EFuX5Soi+L5J3PmWRw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:33:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:33:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:33:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:33:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:33:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:33:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4"), "KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:33:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:33:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/button_Continue")): Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:33:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:33:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Done")): Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:33:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:33:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e")): Object: 'Object Repository/Khoa/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e' is clicked on
+
+2022-01-17 15:33:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e' is clicked on
+
+2022-01-17 15:33:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/span_Create new room")): Object: 'Object Repository/Khoa/Page_Element/span_Create new room' is clicked on
+
+2022-01-17 15:33:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/span_Create new room' is clicked on
+
+2022-01-17 15:33:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Create a private room_mx_Field_5"), "Private Room 0001"): Text 'Private Room 0001' is set on object 'Object Repository/Khoa/Page_Element/input_Create a private room_mx_Field_5'
+
+2022-01-17 15:33:31 - [MESSAGE][PASSED] - Text 'Private Room 0001' is set on object 'Object Repository/Khoa/Page_Element/input_Create a private room_mx_Field_5'
+
+2022-01-17 15:33:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Name_mx_Field_6"), "Private Room 0001"): Text 'Private Room 0001' is set on object 'Object Repository/Khoa/Page_Element/input_Name_mx_Field_6'
+
+2022-01-17 15:33:32 - [MESSAGE][PASSED] - Text 'Private Room 0001' is set on object 'Object Repository/Khoa/Page_Element/input_Name_mx_Field_6'
+
+2022-01-17 15:33:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/button_Create Room")): Object: 'Object Repository/Khoa/Page_Element/button_Create Room' is clicked on
+
+2022-01-17 15:33:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/button_Create Room' is clicked on
+
+2022-01-17 15:33:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Private Room 0001_mx_AccessibleButton m_c7edd6")): Object: 'Object Repository/Khoa/Page_Element/div_Private Room 0001_mx_AccessibleButton m_c7edd6' is clicked on
+
+2022-01-17 15:33:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Private Room 0001_mx_AccessibleButton m_c7edd6' is clicked on
+
+2022-01-17 15:33:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Room settings")): Object: 'Object Repository/Khoa/Page_Element/div_Room settings' is clicked on
+
+2022-01-17 15:33:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Room settings' is clicked on
+
+2022-01-17 15:33:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Leave room")): Object: 'Object Repository/Khoa/Page_Element/div_Leave room' is clicked on
+
+2022-01-17 15:33:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Leave room' is clicked on
+
+2022-01-17 15:33:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/button_Leave")): Object: 'Object Repository/Khoa/Page_Element/button_Leave' is clicked on
+
+2022-01-17 15:33:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/button_Leave' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2. Create room/3. Create an existed public room" time="20.67" classname="Test Cases/2. Create room/3. Create an existed public room" status="PASSED">
+         <system-out><![CDATA[2022-01-17 15:33:35 - [TEST_CASE][PASSED] - Test Cases/2. Create room/3. Create an existed public room: Test Cases/2. Create room/3. Create an existed public room
+
+2022-01-17 15:33:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 15:33:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 15:33:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 15:33:36 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-01-17 15:33:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 15:33:36 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/welcome"): Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:33:40 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:33:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/a_Sign In")): Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:33:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:33:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Sign in with_username"), "catalontest1"): Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:33:44 - [MESSAGE][PASSED] - Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:33:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Username_password"), "IVP3EFuX5Soi+L5J3PmWRw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:33:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:33:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:33:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:33:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:33:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:33:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4"), "KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:33:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:33:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/button_Continue")): Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:33:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:33:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Done")): Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:33:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e")): Object: 'Object Repository/Khoa/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e' is clicked on
+
+2022-01-17 15:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e' is clicked on
+
+2022-01-17 15:33:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/span_Create new room")): Object: 'Object Repository/Khoa/Page_Element/span_Create new room' is clicked on
+
+2022-01-17 15:33:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/span_Create new room' is clicked on
+
+2022-01-17 15:33:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Create a private room_mx_Field_5"), "Existed Public Room 0001"): Text 'Existed Public Room 0001' is set on object 'Object Repository/Khoa/Page_Element/input_Create a private room_mx_Field_5'
+
+2022-01-17 15:33:53 - [MESSAGE][PASSED] - Text 'Existed Public Room 0001' is set on object 'Object Repository/Khoa/Page_Element/input_Create a private room_mx_Field_5'
+
+2022-01-17 15:33:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Name_mx_Field_6"), "Existed Public Room 0001"): Text 'Existed Public Room 0001' is set on object 'Object Repository/Khoa/Page_Element/input_Name_mx_Field_6'
+
+2022-01-17 15:33:54 - [MESSAGE][PASSED] - Text 'Existed Public Room 0001' is set on object 'Object Repository/Khoa/Page_Element/input_Name_mx_Field_6'
+
+2022-01-17 15:33:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Private room (invite only)")): Object: 'Object Repository/Khoa/Page_Element/div_Private room (invite only)' is clicked on
+
+2022-01-17 15:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Private room (invite only)' is clicked on
+
+2022-01-17 15:33:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Public room")): Object: 'Object Repository/Khoa/Page_Element/div_Public room' is clicked on
+
+2022-01-17 15:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Public room' is clicked on
+
+2022-01-17 15:33:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input__mx_Field_7"), "existed-public-room-0001"): Text 'existed-public-room-0001' is set on object 'Object Repository/Khoa/Page_Element/input__mx_Field_7'
+
+2022-01-17 15:33:55 - [MESSAGE][PASSED] - Text 'existed-public-room-0001' is set on object 'Object Repository/Khoa/Page_Element/input__mx_Field_7'
+
+2022-01-17 15:33:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/button_Create Room")): Object: 'Object Repository/Khoa/Page_Element/button_Create Room' is clicked on
+
+2022-01-17 15:33:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/button_Create Room' is clicked on
+
+2022-01-17 15:33:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/button_Cancel")): Object: 'Object Repository/Khoa/Page_Element/button_Cancel' is clicked on
+
+2022-01-17 15:33:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/button_Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. Join room/1. Join a public room" time="24.457" classname="Test Cases/3. Join room/1. Join a public room" status="PASSED">
+         <system-out><![CDATA[2022-01-17 15:33:56 - [TEST_CASE][PASSED] - Test Cases/3. Join room/1. Join a public room: Test Cases/3. Join room/1. Join a public room
+
+2022-01-17 15:33:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 15:33:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 15:33:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 15:33:56 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-01-17 15:33:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 15:33:57 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/welcome"): Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:34:01 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:34:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/a_Sign In")): Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:34:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:34:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Sign in with_username"), "catalontest1"): Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:34:06 - [MESSAGE][PASSED] - Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:34:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Username_password"), "IVP3EFuX5Soi+L5J3PmWRw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:34:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:34:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:34:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:34:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:34:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:34:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4"), "KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:34:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:34:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/button_Continue")): Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:34:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:34:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Done")): Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:34:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:34:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e")): Object: 'Object Repository/Khoa/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e' is clicked on
+
+2022-01-17 15:34:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e' is clicked on
+
+2022-01-17 15:34:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/span_Explore public rooms")): Object: 'Object Repository/Khoa/Page_Element/span_Explore public rooms' is clicked on
+
+2022-01-17 15:34:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/span_Explore public rooms' is clicked on
+
+2022-01-17 15:34:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Create a new room_dirsearch"), "public-Room"): Text 'public-Room' is set on object 'Object Repository/Khoa/Page_Element/input_Create a new room_dirsearch'
+
+2022-01-17 15:34:15 - [MESSAGE][PASSED] - Text 'public-Room' is set on object 'Object Repository/Khoa/Page_Element/input_Create a new room_dirsearch'
+
+2022-01-17 15:34:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Join")): Object: 'Object Repository/Khoa/Page_Element/div_Join' is clicked on
+
+2022-01-17 15:34:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Join' is clicked on
+
+2022-01-17 15:34:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_public-room-01_mx_AccessibleButton mx_R_4ce54f")): Object: 'Object Repository/Khoa/Page_Element/div_public-room-01_mx_AccessibleButton mx_R_4ce54f' is clicked on
+
+2022-01-17 15:34:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_public-room-01_mx_AccessibleButton mx_R_4ce54f' is clicked on
+
+2022-01-17 15:34:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Room settings")): Object: 'Object Repository/Khoa/Page_Element/div_Room settings' is clicked on
+
+2022-01-17 15:34:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Room settings' is clicked on
+
+2022-01-17 15:34:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Leave room")): Object: 'Object Repository/Khoa/Page_Element/div_Leave room' is clicked on
+
+2022-01-17 15:34:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Leave room' is clicked on
+
+2022-01-17 15:34:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/button_Leave")): Object: 'Object Repository/Khoa/Page_Element/button_Leave' is clicked on
+
+2022-01-17 15:34:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/button_Leave' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. Join room/2. Join a public room with URL" time="52.971" classname="Test Cases/3. Join room/2. Join a public room with URL" status="PASSED">
+         <system-out><![CDATA[2022-01-17 15:34:20 - [TEST_CASE][PASSED] - Test Cases/3. Join room/2. Join a public room with URL: Test Cases/3. Join room/2. Join a public room with URL
+
+2022-01-17 15:34:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 15:34:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 15:34:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 15:34:22 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-01-17 15:34:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 15:34:24 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/welcome"): Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:34:31 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:34:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/a_Sign In")): Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:34:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:34:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Sign in with_username"), "catalontest1"): Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:34:44 - [MESSAGE][PASSED] - Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:34:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Username_password"), "IVP3EFuX5Soi+L5J3PmWRw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:34:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:34:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:34:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:35:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:35:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4"), "KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:35:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:35:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/button_Continue")): Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:35:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Done")): Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:35:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:35:08 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/room/#public-room-01:matrix.org"): Navigate to 'http://localhost:8080/#/room/#public-room-01:matrix.org' successfully
+
+2022-01-17 15:35:08 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/room/#public-room-01:matrix.org' successfully
+
+2022-01-17 15:35:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  public-room-01/div_Join the discussion")): Object: 'Object Repository/Khoa/Page_Element  public-room-01/div_Join the discussion' is clicked on
+
+2022-01-17 15:35:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  public-room-01/div_Join the discussion' is clicked on
+
+2022-01-17 15:35:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  public-room-01/div_public-room-01_mx_AccessibleButton mx_R_4ce54f")): Object: 'Object Repository/Khoa/Page_Element  public-room-01/div_public-room-01_mx_AccessibleButton mx_R_4ce54f' is clicked on
+
+2022-01-17 15:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  public-room-01/div_public-room-01_mx_AccessibleButton mx_R_4ce54f' is clicked on
+
+2022-01-17 15:35:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  public-room-01/div_Room settings")): Object: 'Object Repository/Khoa/Page_Element  public-room-01/div_Room settings' is clicked on
+
+2022-01-17 15:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  public-room-01/div_Room settings' is clicked on
+
+2022-01-17 15:35:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  public-room-01/div_Leave room")): Object: 'Object Repository/Khoa/Page_Element  public-room-01/div_Leave room' is clicked on
+
+2022-01-17 15:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  public-room-01/div_Leave room' is clicked on
+
+2022-01-17 15:35:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  public-room-01/button_Leave")): Object: 'Object Repository/Khoa/Page_Element  public-room-01/button_Leave' is clicked on
+
+2022-01-17 15:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  public-room-01/button_Leave' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3. Join room/3. Join a not existed public room URL" time="41.385" classname="Test Cases/3. Join room/3. Join a not existed public room URL" status="PASSED">
+         <system-out><![CDATA[2022-01-17 15:35:13 - [TEST_CASE][PASSED] - Test Cases/3. Join room/3. Join a not existed public room URL: Test Cases/3. Join room/3. Join a not existed public room URL
+
+2022-01-17 15:35:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 15:35:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 15:35:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 15:35:16 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-01-17 15:35:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 15:35:29 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/welcome"): Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:35:33 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:35:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/a_Sign In")): Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:35:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Sign in with_username"), "catalontest1"): Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:35:38 - [MESSAGE][PASSED] - Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:35:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Username_password"), "IVP3EFuX5Soi+L5J3PmWRw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:35:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:35:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:35:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:35:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:35:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4"), "KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:35:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:35:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/button_Continue")): Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:35:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Done")): Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:35:54 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/room/#public-room-01none:matrix.org"): Navigate to 'http://localhost:8080/#/room/#public-room-01none:matrix.org' successfully
+
+2022-01-17 15:35:54 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/room/#public-room-01none:matrix.org' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. Room Actions/1. Invite people to Space" time="21.277" classname="Test Cases/4. Room Actions/1. Invite people to Space" status="PASSED">
+         <system-out><![CDATA[2022-01-17 15:35:55 - [TEST_CASE][PASSED] - Test Cases/4. Room Actions/1. Invite people to Space: Test Cases/4. Room Actions/1. Invite people to Space
+
+2022-01-17 15:35:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 15:35:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 15:35:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 15:35:55 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-01-17 15:35:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 15:35:56 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/welcome"): Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:35:58 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:35:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/a_Sign In")): Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:36:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Sign in with_username"), "catalontest1"): Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:36:02 - [MESSAGE][PASSED] - Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:36:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Username_password"), "IVP3EFuX5Soi+L5J3PmWRw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:36:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:36:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:36:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:36:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:36:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4"), "KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:36:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:36:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/button_Continue")): Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:36:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:36:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Done")): Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:36:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:36:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c")): Object: 'Object Repository/Khoa/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c' is clicked on
+
+2022-01-17 15:36:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c' is clicked on
+
+2022-01-17 15:36:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Create a new room_dirsearch"), "publicroom0001"): Text 'publicroom0001' is set on object 'Object Repository/Khoa/Page_Element/input_Create a new room_dirsearch'
+
+2022-01-17 15:36:12 - [MESSAGE][PASSED] - Text 'publicroom0001' is set on object 'Object Repository/Khoa/Page_Element/input_Create a new room_dirsearch'
+
+2022-01-17 15:36:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_View")): Object: 'Object Repository/Khoa/Page_Element/div_View' is clicked on
+
+2022-01-17 15:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_View' is clicked on
+
+2022-01-17 15:36:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  PublicRoom0001/div_Invite to this room")): Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/div_Invite to this room' is clicked on
+
+2022-01-17 15:36:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/div_Invite to this room' is clicked on
+
+2022-01-17 15:36:15 - [TEST_STEP][PASSED] - click(findTestObject("Khoa/Page_Element  PublicRoom0001/a_share this room")): Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/a_share this room' is clicked on
+
+2022-01-17 15:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/a_share this room' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. Room Actions/2. Export chat" time="22.592" classname="Test Cases/4. Room Actions/2. Export chat" status="PASSED">
+         <system-out><![CDATA[2022-01-17 15:36:16 - [TEST_CASE][PASSED] - Test Cases/4. Room Actions/2. Export chat: Test Cases/4. Room Actions/2. Export chat
+
+2022-01-17 15:36:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 15:36:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 15:36:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 15:36:16 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-01-17 15:36:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 15:36:17 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/welcome"): Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:36:19 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:36:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/a_Sign In")): Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:36:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:36:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Sign in with_username"), "catalontest1"): Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:36:23 - [MESSAGE][PASSED] - Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:36:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Username_password"), "IVP3EFuX5Soi+L5J3PmWRw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:36:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:36:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:36:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:36:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:36:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:36:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4"), "KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:36:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:36:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/button_Continue")): Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:36:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:36:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Done")): Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:36:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:36:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c")): Object: 'Object Repository/Khoa/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c' is clicked on
+
+2022-01-17 15:36:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c' is clicked on
+
+2022-01-17 15:36:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Create a new room_dirsearch"), "publicroom0001"): Text 'publicroom0001' is set on object 'Object Repository/Khoa/Page_Element/input_Create a new room_dirsearch'
+
+2022-01-17 15:36:34 - [MESSAGE][PASSED] - Text 'publicroom0001' is set on object 'Object Repository/Khoa/Page_Element/input_Create a new room_dirsearch'
+
+2022-01-17 15:36:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_View")): Object: 'Object Repository/Khoa/Page_Element/div_View' is clicked on
+
+2022-01-17 15:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_View' is clicked on
+
+2022-01-17 15:36:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  PublicRoom0001/div_PublicRoom0001_mx_AccessibleButton mx_R_7d7dc9")): Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/div_PublicRoom0001_mx_AccessibleButton mx_R_7d7dc9' is clicked on
+
+2022-01-17 15:36:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/div_PublicRoom0001_mx_AccessibleButton mx_R_7d7dc9' is clicked on
+
+2022-01-17 15:36:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  PublicRoom0001/div_Export chat")): Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/div_Export chat' is clicked on
+
+2022-01-17 15:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/div_Export chat' is clicked on
+
+2022-01-17 15:36:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  PublicRoom0001/div_Plain Text")): Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/div_Plain Text' is clicked on
+
+2022-01-17 15:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/div_Plain Text' is clicked on
+
+2022-01-17 15:36:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  PublicRoom0001/button_Export")): Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/button_Export' is clicked on
+
+2022-01-17 15:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/button_Export' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. Room Actions/3. Share room to Facebook" time="23.593" classname="Test Cases/4. Room Actions/3. Share room to Facebook" status="PASSED">
+         <system-out><![CDATA[2022-01-17 15:36:39 - [TEST_CASE][PASSED] - Test Cases/4. Room Actions/3. Share room to Facebook: Test Cases/4. Room Actions/3. Share room to Facebook
+
+2022-01-17 15:36:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 15:36:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 15:36:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 15:36:39 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-01-17 15:36:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 15:36:40 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/welcome"): Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:36:44 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:36:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/a_Sign In")): Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:36:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:36:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Sign in with_username"), "catalontest1"): Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:36:48 - [MESSAGE][PASSED] - Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:36:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Username_password"), "IVP3EFuX5Soi+L5J3PmWRw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:36:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:36:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:36:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:36:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:36:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4"), "KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:36:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:36:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/button_Continue")): Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:36:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:36:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Done")): Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:36:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c")): Object: 'Object Repository/Khoa/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c' is clicked on
+
+2022-01-17 15:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c' is clicked on
+
+2022-01-17 15:36:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Create a new room_dirsearch"), "publicroom0001"): Text 'publicroom0001' is set on object 'Object Repository/Khoa/Page_Element/input_Create a new room_dirsearch'
+
+2022-01-17 15:36:58 - [MESSAGE][PASSED] - Text 'publicroom0001' is set on object 'Object Repository/Khoa/Page_Element/input_Create a new room_dirsearch'
+
+2022-01-17 15:36:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_View")): Object: 'Object Repository/Khoa/Page_Element/div_View' is clicked on
+
+2022-01-17 15:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_View' is clicked on
+
+2022-01-17 15:37:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  PublicRoom0001/div_PublicRoom0001_mx_AccessibleButton mx_R_7d7dc9")): Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/div_PublicRoom0001_mx_AccessibleButton mx_R_7d7dc9' is clicked on
+
+2022-01-17 15:37:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/div_PublicRoom0001_mx_AccessibleButton mx_R_7d7dc9' is clicked on
+
+2022-01-17 15:37:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  PublicRoom0001/div_Share room")): Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/div_Share room' is clicked on
+
+2022-01-17 15:37:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/div_Share room' is clicked on
+
+2022-01-17 15:37:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  PublicRoom0001/img")): Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/img' is clicked on
+
+2022-01-17 15:37:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/img' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4. Room Actions/4. Turn off room notifications" time="27.873" classname="Test Cases/4. Room Actions/4. Turn off room notifications" status="PASSED">
+         <system-out><![CDATA[2022-01-17 15:37:02 - [TEST_CASE][PASSED] - Test Cases/4. Room Actions/4. Turn off room notifications: Test Cases/4. Room Actions/4. Turn off room notifications
+
+2022-01-17 15:37:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-01-17 15:37:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-01-17 15:37:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-01-17 15:37:03 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-01-17 15:37:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-01-17 15:37:03 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost:8080/#/welcome"): Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:37:07 - [MESSAGE][PASSED] - Navigate to 'http://localhost:8080/#/welcome' successfully
+
+2022-01-17 15:37:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/a_Sign In")): Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/a_Sign In' is clicked on
+
+2022-01-17 15:37:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Sign in with_username"), "catalontest1"): Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:37:12 - [MESSAGE][PASSED] - Text 'catalontest1' is set on object 'Object Repository/Khoa/Page_Element/input_Sign in with_username'
+
+2022-01-17 15:37:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Username_password"), "IVP3EFuX5Soi+L5J3PmWRw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:37:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Username_password'
+
+2022-01-17 15:37:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit")): Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit' is clicked on
+
+2022-01-17 15:37:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Verify with Security Key")): Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:37:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Verify with Security Key' is clicked on
+
+2022-01-17 15:37:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4"), "KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="): Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:37:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4'
+
+2022-01-17 15:37:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/button_Continue")): Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:37:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/button_Continue' is clicked on
+
+2022-01-17 15:37:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Done")): Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Done' is clicked on
+
+2022-01-17 15:37:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c")): Object: 'Object Repository/Khoa/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c' is clicked on
+
+2022-01-17 15:37:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c' is clicked on
+
+2022-01-17 15:37:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Khoa/Page_Element/input_Create a new room_dirsearch"), "publicroom0001"): Text 'publicroom0001' is set on object 'Object Repository/Khoa/Page_Element/input_Create a new room_dirsearch'
+
+2022-01-17 15:37:25 - [MESSAGE][PASSED] - Text 'publicroom0001' is set on object 'Object Repository/Khoa/Page_Element/input_Create a new room_dirsearch'
+
+2022-01-17 15:37:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element/div_View")): Object: 'Object Repository/Khoa/Page_Element/div_View' is clicked on
+
+2022-01-17 15:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element/div_View' is clicked on
+
+2022-01-17 15:37:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  PublicRoom0001/div_PublicRoom0001_mx_AccessibleButton mx_R_7d7dc9")): Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/div_PublicRoom0001_mx_AccessibleButton mx_R_7d7dc9' is clicked on
+
+2022-01-17 15:37:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/div_PublicRoom0001_mx_AccessibleButton mx_R_7d7dc9' is clicked on
+
+2022-01-17 15:37:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  PublicRoom0001/div_Room settings")): Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/div_Room settings' is clicked on
+
+2022-01-17 15:37:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/div_Room settings' is clicked on
+
+2022-01-17 15:37:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  PublicRoom0001/span_Notifications")): Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/span_Notifications' is clicked on
+
+2022-01-17 15:37:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/span_Notifications' is clicked on
+
+2022-01-17 15:37:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  PublicRoom0001/label_OffYou wont get any notifications")): Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/label_OffYou wont get any notifications' is clicked on
+
+2022-01-17 15:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/label_OffYou wont get any notifications' is clicked on
+
+2022-01-17 15:37:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Khoa/Page_Element  PublicRoom0001/div_Room Settings - PublicRoom0001_mx_Acces_ebd30e")): Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/div_Room Settings - PublicRoom0001_mx_Acces_ebd30e' is clicked on
+
+2022-01-17 15:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Khoa/Page_Element  PublicRoom0001/div_Room Settings - PublicRoom0001_mx_Acces_ebd30e' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-17 15:27:17 - [TEST_SUITE][FAILED] - Run all test cases: Test Cases/6. Login/Login with username FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Thang/Page_Element/div_Done'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Login with username.run(Login with username:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642408034470.run(TempTestSuite1642408034470.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="mx_Spinner_icon" aria-label="Loading..." style="width: 32px; height: 32px;"></div> is not clickable at point (924, 181). Other element would receive the click: <div class="mx_Dialog_background"></div>
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'UbuntuMML', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-46-generic', java.version: '1.8.0_312'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.WK0H4Y}, goog:chromeOptions: {debuggerAddress: localhost:36783}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 95813857518b0cec5da1cf4b6f2481ba
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-01-17 15:27:17 - [TEST_SUITE][FAILED] - Run all test cases: Test Cases/6. Login/Login with username FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Thang/Page_Element/div_Done'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Login with username.run(Login with username:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642408034470.run(TempTestSuite1642408034470.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="mx_Spinner_icon" aria-label="Loading..." style="width: 32px; height: 32px;"></div> is not clickable at point (924, 181). Other element would receive the click: <div class="mx_Dialog_background"></div>
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'UbuntuMML', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-46-generic', java.version: '1.8.0_312'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.WK0H4Y}, goog:chromeOptions: {debuggerAddress: localhost:36783}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 95813857518b0cec5da1cf4b6f2481ba
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('6. Login/Login with username'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('http://localhost:8080/#/home')
 
@@ -39,6 +39,4 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/Toan/Page_Element
 
 WebUI.setText(findTestObject('Object Repository/Toan/Page_Element  Matrix HQ/div_katalontest1matrix.org joined the room__396e34'), 
     '<div style=""><br></div>')
-
-WebUI.closeBrowser()
 

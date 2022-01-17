@@ -17,15 +17,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('6. Login/Login with username'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://localhost:8080/#/room/#matrix:matrix.org')
+WebUI.click(findTestObject('Object Repository/Toan/Page_Element/div_Explore Public Rooms'))
 
-WebUI.click(findTestObject('Object Repository/Toan/Page_Element  Matrix HQ/div_Matrix HQ_mx_AccessibleButton mx_RoomTi_8b827b (1)'))
+WebUI.setText(findTestObject('Object Repository/Toan/Page_Element/input_Create a new room_dirsearch'), 'matrix hq')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Toan/Page_Element  Matrix HQ/span_Favorite'), 'Favorite')
+WebUI.sendKeys(findTestObject('Object Repository/Toan/Page_Element/input_Create a new room_dirsearch'), Keys.chord(Keys.ENTER))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Toan/Page_Element  Matrix HQ/span_Favorite'))
+WebUI.click(findTestObject('Object Repository/Toan/Page_Element/div_Join'))
 
-WebUI.click(findTestObject('Object Repository/Toan/Page_Element  Matrix HQ/span_Favorite'))
+WebUI.click(findTestObject('Object Repository/Toan/Page_Element/div_Matrix HQ_mx_AccessibleButton mx_RoomTi_8b827b'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Toan/Page_Element/span_Favorite'), 'Favorite')
+
+WebUI.click(findTestObject('Object Repository/Toan/Page_Element/span_Favorite'))
+
+WebUI.click(findTestObject('Object Repository/Toan/Page_Element/div_Matrix HQ_mx_AccessibleButton mx_RoomTi_8b827b'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Toan/Page_Element/span_Favorited_mx_IconizedContextMenu_icon _f76564'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Toan/Page_Element/span_Favorited'), 'Favorited')
+
+WebUI.click(findTestObject('Object Repository/Toan/Page_Element/span_Favorited'))
+
+WebUI.click(findTestObject('Object Repository/Toan/Page_Element/div_Matrix HQ_mx_AccessibleButton mx_RoomTi_8b827b'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Toan/Page_Element/span_Leave'), 'Leave')
+
+WebUI.click(findTestObject('Object Repository/Toan/Page_Element/span_Leave'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Toan/Page_Element/div_Leave roomAre you sure you want to leav_dfbd4d'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Toan/Page_Element/button_Leave'), 'Leave')
+
+WebUI.click(findTestObject('Object Repository/Toan/Page_Element/button_Leave'))
+
+WebUI.closeBrowser()
 

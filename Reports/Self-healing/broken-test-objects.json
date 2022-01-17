@@ -9,6 +9,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Khoa/Page_Element  public-room-01/div_Join the discussion_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thang/Page_Element/div_Done",
+      "brokenLocator": "//section[@id\u003d\u0027matrixchat\u0027]/div/div/div[2]/div/div/div/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Blog\u0027])[1]/preceding::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Thang/Page_Element/div_Done_neighbor.png"
     }
   ]
 }

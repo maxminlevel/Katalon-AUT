@@ -1,0 +1,312 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Run all test cases,Chrome 97.0.4692.71,,,2022-01-17 15:27:17,2022-01-17 15:37:30,10m - 12.757s,PASSED
+,,,,,,,
+Test Cases/6. Login/Login with email,Chrome 97.0.4692.71,,,2022-01-17 15:27:18,2022-01-17 15:27:57,39.148s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 15:27:18,2022-01-17 15:27:20,1.954s,PASSED
+"navigateToUrl(""http://localhost:8080/#/"")",Chrome 97.0.4692.71,,,2022-01-17 15:27:20,2022-01-17 15:27:28,7.270s,PASSED
+"click(findTestObject(""Object Repository/Toan/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-17 15:27:28,2022-01-17 15:27:33,5.146s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Toan/Page_Element/select_UsernameEmail addressPhone""), ""login_field_email"", true)",Chrome 97.0.4692.71,,,2022-01-17 15:27:33,2022-01-17 15:27:34,1.634s,PASSED
+"setText(findTestObject(""Object Repository/Toan/Page_Element/input_Sign in with_mx_Field_4""), ""vvtoan35@gmail.com"")",Chrome 97.0.4692.71,,,2022-01-17 15:27:34,2022-01-17 15:27:35,0.748s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Toan/Page_Element/input_Email_password""), ""/qFNx0rqStfHi8+9Smqoig=="")",Chrome 97.0.4692.71,,,2022-01-17 15:27:35,2022-01-17 15:27:36,0.586s,PASSED
+"click(findTestObject(""Object Repository/Toan/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-17 15:27:36,2022-01-17 15:27:36,0.347s,PASSED
+"click(findTestObject(""Object Repository/Toan/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-17 15:27:36,2022-01-17 15:27:51,15.326s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Toan/Page_Element/input_Security Key_mx_Field_5""), ""KnX+oMcGoLhzlLGyvOrLmQQebG0szlrMTLR863vfIPXVmfHzh8u9s+kB9lNEfIqfngLe1vEhIAWKS019Kp4pPg=="")",Chrome 97.0.4692.71,,,2022-01-17 15:27:51,2022-01-17 15:27:54,2.122s,PASSED
+"click(findTestObject(""Object Repository/Toan/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-17 15:27:54,2022-01-17 15:27:54,0.520s,PASSED
+"click(findTestObject(""Object Repository/Toan/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-17 15:27:54,2022-01-17 15:27:57,2.646s,PASSED
+closeBrowser(),Chrome 97.0.4692.71,,,2022-01-17 15:27:57,2022-01-17 15:27:57,0.414s,PASSED
+,,,,,,,
+Test Cases/6. Login/Login with email fail (invalid user),Chrome 97.0.4692.71,,,2022-01-17 15:27:57,2022-01-17 15:28:16,19.138s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 15:27:58,2022-01-17 15:27:59,1.391s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-17 15:27:59,2022-01-17 15:28:06,6.838s,PASSED
+"click(findTestObject(""Object Repository/Thang/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-17 15:28:06,2022-01-17 15:28:13,6.922s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Thang/Page_Element/select_UsernameEmail addressPhone""), ""login_field_email"", true)",Chrome 97.0.4692.71,,,2022-01-17 15:28:13,2022-01-17 15:28:14,1.404s,PASSED
+"setText(findTestObject(""Object Repository/Thang/Page_Element/input_Sign in with_mx_Field_4""), ""catalontest123@gmail.com"")",Chrome 97.0.4692.71,,,2022-01-17 15:28:14,2022-01-17 15:28:15,0.711s,PASSED
+"click(findTestObject(""Object Repository/Thang/Page_Element/div_Password""))",Chrome 97.0.4692.71,,,2022-01-17 15:28:15,2022-01-17 15:28:15,0.376s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Thang/Page_Element/input_Email_password""), ""RigbBhfdqODKcJvMpwxiCQ=="")",Chrome 97.0.4692.71,,,2022-01-17 15:28:15,2022-01-17 15:28:16,0.460s,PASSED
+"click(findTestObject(""Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-17 15:28:16,2022-01-17 15:28:16,0.359s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Thang/Page_Element/div_Incorrect username andor password""))",Chrome 97.0.4692.71,,,2022-01-17 15:28:16,2022-01-17 15:28:16,0.280s,PASSED
+,,,,,,,
+Test Cases/6. Login/Login with email fail (wrong password),Chrome 97.0.4692.71,,,2022-01-17 15:28:17,2022-01-17 15:28:39,22.924s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 15:28:17,2022-01-17 15:28:19,2.149s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-17 15:28:19,2022-01-17 15:28:30,11.079s,PASSED
+"click(findTestObject(""Object Repository/Thang/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-17 15:28:30,2022-01-17 15:28:36,5.789s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Thang/Page_Element/select_UsernameEmail addressPhone""), ""login_field_email"", true)",Chrome 97.0.4692.71,,,2022-01-17 15:28:36,2022-01-17 15:28:37,1.408s,PASSED
+"setText(findTestObject(""Object Repository/Thang/Page_Element/input_Sign in with_mx_Field_4""), ""catalontest1@gmail.com"")",Chrome 97.0.4692.71,,,2022-01-17 15:28:37,2022-01-17 15:28:38,0.656s,PASSED
+"click(findTestObject(""Object Repository/Thang/Page_Element/div_Password""))",Chrome 97.0.4692.71,,,2022-01-17 15:28:38,2022-01-17 15:28:38,0.355s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Thang/Page_Element/input_Email_password""), ""RigbBhfdqODKcJvMpwxiCQ=="")",Chrome 97.0.4692.71,,,2022-01-17 15:28:38,2022-01-17 15:28:39,0.587s,PASSED
+"click(findTestObject(""Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-17 15:28:39,2022-01-17 15:28:39,0.323s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Thang/Page_Element/div_Incorrect username andor password""))",Chrome 97.0.4692.71,,,2022-01-17 15:28:39,2022-01-17 15:28:39,0.177s,PASSED
+,,,,,,,
+Test Cases/6. Login/Login with phone fail,Chrome 97.0.4692.71,,,2022-01-17 15:28:40,2022-01-17 15:28:53,13.209s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 15:28:40,2022-01-17 15:28:41,1.021s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-17 15:28:41,2022-01-17 15:28:45,4.181s,PASSED
+"click(findTestObject(""Object Repository/Thang/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-17 15:28:45,2022-01-17 15:28:48,3.007s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Thang/Page_Element/select_UsernameEmail addressPhone""), ""login_field_phone"", true)",Chrome 97.0.4692.71,,,2022-01-17 15:28:48,2022-01-17 15:28:50,2.058s,PASSED
+"click(findTestObject(""Object Repository/Thang/Page_Element/div_44""))",Chrome 97.0.4692.71,,,2022-01-17 15:28:50,2022-01-17 15:28:51,0.667s,PASSED
+"click(findTestObject(""Object Repository/Thang/Page_Element/div_Vietnam (84)""))",Chrome 97.0.4692.71,,,2022-01-17 15:28:51,2022-01-17 15:28:51,0.415s,PASSED
+"setText(findTestObject(""Object Repository/Thang/Page_Element/input__phoneNumber""), ""333171965"")",Chrome 97.0.4692.71,,,2022-01-17 15:28:51,2022-01-17 15:28:52,0.571s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Thang/Page_Element/input_Phone_password""), ""+zSzGdFpedZPFbqqaByDKA=="")",Chrome 97.0.4692.71,,,2022-01-17 15:28:52,2022-01-17 15:28:52,0.474s,PASSED
+"click(findTestObject(""Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-17 15:28:52,2022-01-17 15:28:53,0.282s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Thang/Page_Element/div_Incorrect username andor password""))",Chrome 97.0.4692.71,,,2022-01-17 15:28:53,2022-01-17 15:28:53,0.171s,PASSED
+,,,,,,,
+Test Cases/6. Login/Login with username,Chrome 97.0.4692.71,,,2022-01-17 15:30:24,2022-01-17 15:31:13,49.131s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 15:30:24,2022-01-17 15:30:27,2.910s,PASSED
+maximizeWindow(),Chrome 97.0.4692.71,,,2022-01-17 15:30:27,2022-01-17 15:30:27,0.151s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-17 15:30:27,2022-01-17 15:30:35,7.769s,PASSED
+"click(findTestObject(""Object Repository/Thang/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-17 15:30:35,2022-01-17 15:30:38,3.851s,PASSED
+"setText(findTestObject(""Object Repository/Thang/Page_Element/input_Sign in with_username""), ""catalontest1"")",Chrome 97.0.4692.71,,,2022-01-17 15:30:38,2022-01-17 15:30:40,1.461s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Thang/Page_Element/input_Username_password""), ""IVP3EFuX5Soi+L5J3PmWRw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:30:40,2022-01-17 15:30:40,0.475s,PASSED
+"click(findTestObject(""Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-17 15:30:40,2022-01-17 15:30:41,0.517s,PASSED
+"click(findTestObject(""Object Repository/Thang/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-17 15:30:41,2022-01-17 15:30:57,15.834s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Thang/Page_Element/input_Security Key_mx_Field_4""), ""KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:30:57,2022-01-17 15:31:04,6.849s,PASSED
+"click(findTestObject(""Object Repository/Thang/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-17 15:31:04,2022-01-17 15:31:04,0.420s,PASSED
+"click(findTestObject(""Object Repository/Thang/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-17 15:31:04,2022-01-17 15:31:13,8.860s,PASSED
+,,,,,,,
+Test Cases/6. Login/Login with username fail (invalid user),Chrome 97.0.4692.71,,,2022-01-17 15:31:14,2022-01-17 15:31:28,14.167s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 15:31:15,2022-01-17 15:31:20,4.750s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-17 15:31:20,2022-01-17 15:31:23,2.952s,PASSED
+"click(findTestObject(""Object Repository/Thang/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-17 15:31:23,2022-01-17 15:31:26,2.557s,PASSED
+"setText(findTestObject(""Object Repository/Thang/Page_Element/input_Sign in with_username""), ""catalontest123"")",Chrome 97.0.4692.71,,,2022-01-17 15:31:26,2022-01-17 15:31:27,1.718s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Thang/Page_Element/input_Username_password""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 97.0.4692.71,,,2022-01-17 15:31:27,2022-01-17 15:31:28,0.375s,PASSED
+"click(findTestObject(""Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-17 15:31:28,2022-01-17 15:31:28,0.284s,PASSED
+"click(findTestObject(""Object Repository/Thang/Page_Element/div_Incorrect username andor password""))",Chrome 97.0.4692.71,,,2022-01-17 15:31:28,2022-01-17 15:31:28,0.227s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Thang/Page_Element/div_Incorrect username andor password""))",Chrome 97.0.4692.71,,,2022-01-17 15:31:28,2022-01-17 15:31:28,0.128s,PASSED
+,,,,,,,
+Test Cases/6. Login/Login with username fail (wrong password),Chrome 97.0.4692.71,,,2022-01-17 15:31:28,2022-01-17 15:31:38,9.363s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 15:31:29,2022-01-17 15:31:29,0.817s,PASSED
+"navigateToUrl(""http://localhost:8080/"")",Chrome 97.0.4692.71,,,2022-01-17 15:31:29,2022-01-17 15:31:33,3.292s,PASSED
+"click(findTestObject(""Object Repository/Thang/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-17 15:31:33,2022-01-17 15:31:35,2.607s,PASSED
+"setText(findTestObject(""Object Repository/Thang/Page_Element/input_Sign in with_username""), ""catalontest1"")",Chrome 97.0.4692.71,,,2022-01-17 15:31:35,2022-01-17 15:31:37,1.451s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Thang/Page_Element/input_Username_password""), ""IVP3EFuX5SrLkSPBvPfvYA=="")",Chrome 97.0.4692.71,,,2022-01-17 15:31:37,2022-01-17 15:31:37,0.494s,PASSED
+"click(findTestObject(""Object Repository/Thang/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-17 15:31:37,2022-01-17 15:31:38,0.313s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Thang/Page_Element/div_Incorrect username andor password""))",Chrome 97.0.4692.71,,,2022-01-17 15:31:38,2022-01-17 15:31:38,0.116s,PASSED
+,,,,,,,
+Test Cases/6. Login/Logout,Chrome 97.0.4692.71,,,2022-01-17 15:31:38,2022-01-17 15:31:59,20.736s,PASSED
+"callTestCase(findTestCase(""6. Login/Login with username""), [:], STOP_ON_FAILURE)",Chrome 97.0.4692.71,,,2022-01-17 15:31:38,2022-01-17 15:31:58,19.474s,PASSED
+"click(findTestObject(""Object Repository/Thang/Logout/Page_Element/img_Review_mx_BaseAvatar_image""))",Chrome 97.0.4692.71,,,2022-01-17 15:31:58,2022-01-17 15:31:58,0.571s,PASSED
+"click(findTestObject(""Object Repository/Thang/Logout/Page_Element/span_Sign out""))",Chrome 97.0.4692.71,,,2022-01-17 15:31:58,2022-01-17 15:31:59,0.319s,PASSED
+,,,,,,,
+Test Cases/1. Create Space/2. Create a private space,Chrome 97.0.4692.71,,,2022-01-17 15:31:59,2022-01-17 15:32:30,31.753s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 15:31:59,2022-01-17 15:32:00,1.144s,PASSED
+"navigateToUrl(""http://localhost:8080/#/welcome"")",Chrome 97.0.4692.71,,,2022-01-17 15:32:00,2022-01-17 15:32:04,4.000s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:04,2022-01-17 15:32:07,2.703s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Sign in with_username""), ""catalontest1"")",Chrome 97.0.4692.71,,,2022-01-17 15:32:07,2022-01-17 15:32:08,1.304s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Username_password""), ""IVP3EFuX5Soi+L5J3PmWRw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:32:08,2022-01-17 15:32:09,0.404s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:09,2022-01-17 15:32:09,0.298s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:09,2022-01-17 15:32:23,14.059s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4""), ""KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:32:23,2022-01-17 15:32:25,1.711s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:25,2022-01-17 15:32:25,0.296s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:25,2022-01-17 15:32:26,0.610s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Review_mx_SpaceButton_icon""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:26,2022-01-17 15:32:26,0.311s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_PrivateInvite only, best for yourself or teams""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:26,2022-01-17 15:32:26,0.267s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Upload_spaceName""), ""Private Space 0001"")",Chrome 97.0.4692.71,,,2022-01-17 15:32:26,2022-01-17 15:32:27,0.551s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Create""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:27,2022-01-17 15:32:27,0.229s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  Empty room/div_Just meA private space to organize your rooms""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:27,2022-01-17 15:32:29,1.813s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  Empty room/div_Skip for now""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:29,2022-01-17 15:32:29,0.246s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  Empty room/div_Invite_mx_AccessibleButton mx_SpaceRoom_87964d""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:29,2022-01-17 15:32:30,0.315s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  Empty room/div_Leave Space""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:30,2022-01-17 15:32:30,0.382s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  Empty room/button_Leave space""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:30,2022-01-17 15:32:30,0.389s,PASSED
+,,,,,,,
+Test Cases/1. Create Space/3. Create an existed public space,Chrome 97.0.4692.71,,,2022-01-17 15:32:30,2022-01-17 15:32:50,19.865s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 15:32:31,2022-01-17 15:32:32,1.298s,PASSED
+"navigateToUrl(""http://localhost:8080/#/welcome"")",Chrome 97.0.4692.71,,,2022-01-17 15:32:32,2022-01-17 15:32:37,4.989s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:37,2022-01-17 15:32:40,2.607s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Sign in with_username""), ""catalontest1"")",Chrome 97.0.4692.71,,,2022-01-17 15:32:40,2022-01-17 15:32:41,1.407s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Username_password""), ""IVP3EFuX5Soi+L5J3PmWRw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:32:41,2022-01-17 15:32:42,0.483s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:42,2022-01-17 15:32:42,0.288s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:42,2022-01-17 15:32:47,4.795s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4""), ""KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:32:47,2022-01-17 15:32:48,1.047s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:48,2022-01-17 15:32:48,0.269s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:48,2022-01-17 15:32:49,0.683s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Review_mx_SpaceButton_icon""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:49,2022-01-17 15:32:49,0.343s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_PublicOpen space for anyone, best for c_08629a""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:49,2022-01-17 15:32:49,0.296s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Upload_spaceName""), ""Existed Public Space 00001"")",Chrome 97.0.4692.71,,,2022-01-17 15:32:49,2022-01-17 15:32:50,0.662s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Create""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:50,2022-01-17 15:32:50,0.250s,PASSED
+,,,,,,,
+Test Cases/1. Create Space/4. Create a space in a space,Chrome 97.0.4692.71,,,2022-01-17 15:32:50,2022-01-17 15:33:12,21.675s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 15:32:51,2022-01-17 15:32:51,0.804s,PASSED
+"navigateToUrl(""http://localhost:8080/#/welcome"")",Chrome 97.0.4692.71,,,2022-01-17 15:32:51,2022-01-17 15:32:54,2.910s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:54,2022-01-17 15:32:57,2.367s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Sign in with_username""), ""catalontest1"")",Chrome 97.0.4692.71,,,2022-01-17 15:32:57,2022-01-17 15:32:58,1.515s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Username_password""), ""IVP3EFuX5Soi+L5J3PmWRw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:32:58,2022-01-17 15:32:59,0.491s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:59,2022-01-17 15:32:59,0.371s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-17 15:32:59,2022-01-17 15:33:04,4.963s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4""), ""KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:33:04,2022-01-17 15:33:05,1.136s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:05,2022-01-17 15:33:05,0.262s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:05,2022-01-17 15:33:06,0.640s,PASSED
+"rightClick(findTestObject(""Object Repository/Khoa/Page_Element/span_P""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:06,2022-01-17 15:33:06,0.370s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/span_Space""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:06,2022-01-17 15:33:07,0.256s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Upload_spaceName""), ""Space In Space"")",Chrome 97.0.4692.71,,,2022-01-17 15:33:07,2022-01-17 15:33:07,0.554s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Add""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:07,2022-01-17 15:33:08,0.305s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  Space In Space/div_Just meA private space to organize your rooms""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:08,2022-01-17 15:33:11,3.198s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  Space In Space/div_Skip for now""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:11,2022-01-17 15:33:11,0.227s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  Space In Space/div_Invite_mx_AccessibleButton mx_SpaceRoom_87964d""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:11,2022-01-17 15:33:11,0.264s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  Space In Space/div_Leave Space""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:11,2022-01-17 15:33:12,0.304s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  Space In Space/button_Leave space""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:12,2022-01-17 15:33:12,0.284s,PASSED
+,,,,,,,
+Test Cases/2. Create room/2. Create a private room,Chrome 97.0.4692.71,,,2022-01-17 15:33:12,2022-01-17 15:33:35,23.030s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 15:33:13,2022-01-17 15:33:14,0.972s,PASSED
+"navigateToUrl(""http://localhost:8080/#/welcome"")",Chrome 97.0.4692.71,,,2022-01-17 15:33:14,2022-01-17 15:33:17,3.785s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:17,2022-01-17 15:33:20,2.581s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Sign in with_username""), ""catalontest1"")",Chrome 97.0.4692.71,,,2022-01-17 15:33:20,2022-01-17 15:33:21,1.393s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Username_password""), ""IVP3EFuX5Soi+L5J3PmWRw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:33:21,2022-01-17 15:33:22,0.473s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:22,2022-01-17 15:33:22,0.306s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:22,2022-01-17 15:33:28,5.532s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4""), ""KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:33:28,2022-01-17 15:33:29,1.528s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:29,2022-01-17 15:33:30,0.247s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:30,2022-01-17 15:33:30,0.676s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:30,2022-01-17 15:33:30,0.284s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/span_Create new room""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:30,2022-01-17 15:33:31,0.211s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Create a private room_mx_Field_5""), ""Private Room 0001"")",Chrome 97.0.4692.71,,,2022-01-17 15:33:31,2022-01-17 15:33:31,0.492s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Name_mx_Field_6""), ""Private Room 0001"")",Chrome 97.0.4692.71,,,2022-01-17 15:33:31,2022-01-17 15:33:32,0.426s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/button_Create Room""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:32,2022-01-17 15:33:32,0.328s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Private Room 0001_mx_AccessibleButton m_c7edd6""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:32,2022-01-17 15:33:34,2.160s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Room settings""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:34,2022-01-17 15:33:34,0.263s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Leave room""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:34,2022-01-17 15:33:35,0.333s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/button_Leave""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:35,2022-01-17 15:33:35,0.219s,PASSED
+,,,,,,,
+Test Cases/2. Create room/3. Create an existed public room,Chrome 97.0.4692.71,,,2022-01-17 15:33:35,2022-01-17 15:33:56,20.670s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 15:33:35,2022-01-17 15:33:36,0.990s,PASSED
+"navigateToUrl(""http://localhost:8080/#/welcome"")",Chrome 97.0.4692.71,,,2022-01-17 15:33:36,2022-01-17 15:33:40,3.551s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:40,2022-01-17 15:33:42,2.650s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Sign in with_username""), ""catalontest1"")",Chrome 97.0.4692.71,,,2022-01-17 15:33:42,2022-01-17 15:33:44,1.625s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Username_password""), ""IVP3EFuX5Soi+L5J3PmWRw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:33:44,2022-01-17 15:33:45,0.524s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:45,2022-01-17 15:33:45,0.327s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:45,2022-01-17 15:33:50,5.153s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4""), ""KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:33:50,2022-01-17 15:33:51,0.989s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:51,2022-01-17 15:33:51,0.248s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:51,2022-01-17 15:33:52,0.643s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:52,2022-01-17 15:33:52,0.339s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/span_Create new room""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:52,2022-01-17 15:33:53,0.261s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Create a private room_mx_Field_5""), ""Existed Public Room 0001"")",Chrome 97.0.4692.71,,,2022-01-17 15:33:53,2022-01-17 15:33:53,0.598s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Name_mx_Field_6""), ""Existed Public Room 0001"")",Chrome 97.0.4692.71,,,2022-01-17 15:33:53,2022-01-17 15:33:54,0.622s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Private room (invite only)""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:54,2022-01-17 15:33:54,0.271s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Public room""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:54,2022-01-17 15:33:54,0.270s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input__mx_Field_7""), ""existed-public-room-0001"")",Chrome 97.0.4692.71,,,2022-01-17 15:33:54,2022-01-17 15:33:55,0.655s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/button_Create Room""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:55,2022-01-17 15:33:55,0.266s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/button_Cancel""))",Chrome 97.0.4692.71,,,2022-01-17 15:33:55,2022-01-17 15:33:56,0.314s,PASSED
+,,,,,,,
+Test Cases/3. Join room/1. Join a public room,Chrome 97.0.4692.71,,,2022-01-17 15:33:56,2022-01-17 15:34:20,24.457s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 15:33:56,2022-01-17 15:33:57,1.016s,PASSED
+"navigateToUrl(""http://localhost:8080/#/welcome"")",Chrome 97.0.4692.71,,,2022-01-17 15:33:57,2022-01-17 15:34:01,3.983s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-17 15:34:01,2022-01-17 15:34:04,2.956s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Sign in with_username""), ""catalontest1"")",Chrome 97.0.4692.71,,,2022-01-17 15:34:04,2022-01-17 15:34:06,1.724s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Username_password""), ""IVP3EFuX5Soi+L5J3PmWRw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:34:06,2022-01-17 15:34:06,0.426s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-17 15:34:06,2022-01-17 15:34:06,0.302s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-17 15:34:06,2022-01-17 15:34:11,5.104s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4""), ""KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:34:11,2022-01-17 15:34:12,0.994s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-17 15:34:12,2022-01-17 15:34:13,0.267s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-17 15:34:13,2022-01-17 15:34:13,0.668s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Rooms_mx_AccessibleButton mx_RoomSublis_27fc2e""))",Chrome 97.0.4692.71,,,2022-01-17 15:34:13,2022-01-17 15:34:14,0.361s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/span_Explore public rooms""))",Chrome 97.0.4692.71,,,2022-01-17 15:34:14,2022-01-17 15:34:14,0.307s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Create a new room_dirsearch""), ""public-Room"")",Chrome 97.0.4692.71,,,2022-01-17 15:34:14,2022-01-17 15:34:15,1.009s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Join""))",Chrome 97.0.4692.71,,,2022-01-17 15:34:15,2022-01-17 15:34:17,1.710s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_public-room-01_mx_AccessibleButton mx_R_4ce54f""))",Chrome 97.0.4692.71,,,2022-01-17 15:34:17,2022-01-17 15:34:19,2.150s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Room settings""))",Chrome 97.0.4692.71,,,2022-01-17 15:34:19,2022-01-17 15:34:19,0.368s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Leave room""))",Chrome 97.0.4692.71,,,2022-01-17 15:34:19,2022-01-17 15:34:20,0.520s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/button_Leave""))",Chrome 97.0.4692.71,,,2022-01-17 15:34:20,2022-01-17 15:34:20,0.279s,PASSED
+,,,,,,,
+Test Cases/3. Join room/2. Join a public room with URL,Chrome 97.0.4692.71,,,2022-01-17 15:34:20,2022-01-17 15:35:13,52.971s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 15:34:21,2022-01-17 15:34:24,3.358s,PASSED
+"navigateToUrl(""http://localhost:8080/#/welcome"")",Chrome 97.0.4692.71,,,2022-01-17 15:34:24,2022-01-17 15:34:31,6.531s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-17 15:34:31,2022-01-17 15:34:38,7.678s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Sign in with_username""), ""catalontest1"")",Chrome 97.0.4692.71,,,2022-01-17 15:34:38,2022-01-17 15:34:44,5.887s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Username_password""), ""IVP3EFuX5Soi+L5J3PmWRw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:34:44,2022-01-17 15:34:45,0.887s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-17 15:34:45,2022-01-17 15:34:45,0.265s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-17 15:34:45,2022-01-17 15:35:00,14.562s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4""), ""KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:35:00,2022-01-17 15:35:04,4.260s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-17 15:35:04,2022-01-17 15:35:05,0.305s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-17 15:35:05,2022-01-17 15:35:08,3.355s,PASSED
+"navigateToUrl(""http://localhost:8080/#/room/#public-room-01:matrix.org"")",Chrome 97.0.4692.71,,,2022-01-17 15:35:08,2022-01-17 15:35:08,0.467s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  public-room-01/div_Join the discussion""))",Chrome 97.0.4692.71,,,2022-01-17 15:35:08,2022-01-17 15:35:10,1.785s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  public-room-01/div_public-room-01_mx_AccessibleButton mx_R_4ce54f""))",Chrome 97.0.4692.71,,,2022-01-17 15:35:10,2022-01-17 15:35:12,1.745s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  public-room-01/div_Room settings""))",Chrome 97.0.4692.71,,,2022-01-17 15:35:12,2022-01-17 15:35:12,0.431s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  public-room-01/div_Leave room""))",Chrome 97.0.4692.71,,,2022-01-17 15:35:12,2022-01-17 15:35:13,0.346s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  public-room-01/button_Leave""))",Chrome 97.0.4692.71,,,2022-01-17 15:35:13,2022-01-17 15:35:13,0.268s,PASSED
+,,,,,,,
+Test Cases/3. Join room/3. Join a not existed public room URL,Chrome 97.0.4692.71,,,2022-01-17 15:35:13,2022-01-17 15:35:54,41.385s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 15:35:14,2022-01-17 15:35:29,15.597s,PASSED
+"navigateToUrl(""http://localhost:8080/#/welcome"")",Chrome 97.0.4692.71,,,2022-01-17 15:35:29,2022-01-17 15:35:33,4.170s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-17 15:35:33,2022-01-17 15:35:37,3.584s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Sign in with_username""), ""catalontest1"")",Chrome 97.0.4692.71,,,2022-01-17 15:35:37,2022-01-17 15:35:38,1.320s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Username_password""), ""IVP3EFuX5Soi+L5J3PmWRw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:35:38,2022-01-17 15:35:39,0.539s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-17 15:35:39,2022-01-17 15:35:39,0.241s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-17 15:35:39,2022-01-17 15:35:52,12.974s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4""), ""KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:35:52,2022-01-17 15:35:54,1.621s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-17 15:35:54,2022-01-17 15:35:54,0.206s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-17 15:35:54,2022-01-17 15:35:54,0.453s,PASSED
+"navigateToUrl(""http://localhost:8080/#/room/#public-room-01none:matrix.org"")",Chrome 97.0.4692.71,,,2022-01-17 15:35:54,2022-01-17 15:35:54,0.178s,PASSED
+,,,,,,,
+Test Cases/4. Room Actions/1. Invite people to Space,Chrome 97.0.4692.71,,,2022-01-17 15:35:55,2022-01-17 15:36:16,21.277s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 15:35:55,2022-01-17 15:35:56,0.918s,PASSED
+"navigateToUrl(""http://localhost:8080/#/welcome"")",Chrome 97.0.4692.71,,,2022-01-17 15:35:56,2022-01-17 15:35:58,2.791s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-17 15:35:58,2022-01-17 15:36:01,2.545s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Sign in with_username""), ""catalontest1"")",Chrome 97.0.4692.71,,,2022-01-17 15:36:01,2022-01-17 15:36:02,1.399s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Username_password""), ""IVP3EFuX5Soi+L5J3PmWRw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:36:02,2022-01-17 15:36:03,0.408s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:03,2022-01-17 15:36:03,0.287s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:03,2022-01-17 15:36:09,5.727s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4""), ""KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:36:09,2022-01-17 15:36:10,0.975s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:10,2022-01-17 15:36:10,0.268s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:10,2022-01-17 15:36:11,0.748s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:11,2022-01-17 15:36:11,0.354s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Create a new room_dirsearch""), ""publicroom0001"")",Chrome 97.0.4692.71,,,2022-01-17 15:36:11,2022-01-17 15:36:12,0.945s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_View""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:12,2022-01-17 15:36:14,1.653s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  PublicRoom0001/div_Invite to this room""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:14,2022-01-17 15:36:15,1.694s,PASSED
+"click(findTestObject(""Khoa/Page_Element  PublicRoom0001/a_share this room""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:15,2022-01-17 15:36:16,0.331s,PASSED
+,,,,,,,
+Test Cases/4. Room Actions/2. Export chat,Chrome 97.0.4692.71,,,2022-01-17 15:36:16,2022-01-17 15:36:38,22.592s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 15:36:16,2022-01-17 15:36:17,0.626s,PASSED
+"navigateToUrl(""http://localhost:8080/#/welcome"")",Chrome 97.0.4692.71,,,2022-01-17 15:36:17,2022-01-17 15:36:19,2.746s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:19,2022-01-17 15:36:22,2.508s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Sign in with_username""), ""catalontest1"")",Chrome 97.0.4692.71,,,2022-01-17 15:36:22,2022-01-17 15:36:23,1.544s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Username_password""), ""IVP3EFuX5Soi+L5J3PmWRw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:36:23,2022-01-17 15:36:24,0.515s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:24,2022-01-17 15:36:24,0.374s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:24,2022-01-17 15:36:31,7.046s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4""), ""KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:36:31,2022-01-17 15:36:32,0.950s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:32,2022-01-17 15:36:33,0.219s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:33,2022-01-17 15:36:33,0.638s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:33,2022-01-17 15:36:33,0.288s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Create a new room_dirsearch""), ""publicroom0001"")",Chrome 97.0.4692.71,,,2022-01-17 15:36:33,2022-01-17 15:36:34,0.951s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_View""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:34,2022-01-17 15:36:36,1.657s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  PublicRoom0001/div_PublicRoom0001_mx_AccessibleButton mx_R_7d7dc9""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:36,2022-01-17 15:36:37,1.193s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  PublicRoom0001/div_Export chat""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:37,2022-01-17 15:36:38,0.376s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  PublicRoom0001/div_Plain Text""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:38,2022-01-17 15:36:38,0.430s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  PublicRoom0001/button_Export""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:38,2022-01-17 15:36:38,0.298s,PASSED
+,,,,,,,
+Test Cases/4. Room Actions/3. Share room to Facebook,Chrome 97.0.4692.71,,,2022-01-17 15:36:39,2022-01-17 15:37:02,23.593s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 15:36:39,2022-01-17 15:36:40,1.120s,PASSED
+"navigateToUrl(""http://localhost:8080/#/welcome"")",Chrome 97.0.4692.71,,,2022-01-17 15:36:40,2022-01-17 15:36:44,3.949s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:44,2022-01-17 15:36:46,2.587s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Sign in with_username""), ""catalontest1"")",Chrome 97.0.4692.71,,,2022-01-17 15:36:46,2022-01-17 15:36:48,1.497s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Username_password""), ""IVP3EFuX5Soi+L5J3PmWRw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:36:48,2022-01-17 15:36:48,0.497s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:48,2022-01-17 15:36:49,0.333s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:49,2022-01-17 15:36:55,6.006s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4""), ""KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:36:55,2022-01-17 15:36:56,1.318s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:56,2022-01-17 15:36:56,0.281s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:56,2022-01-17 15:36:57,0.656s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:57,2022-01-17 15:36:57,0.324s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Create a new room_dirsearch""), ""publicroom0001"")",Chrome 97.0.4692.71,,,2022-01-17 15:36:57,2022-01-17 15:36:58,1.027s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_View""))",Chrome 97.0.4692.71,,,2022-01-17 15:36:58,2022-01-17 15:37:00,1.737s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  PublicRoom0001/div_PublicRoom0001_mx_AccessibleButton mx_R_7d7dc9""))",Chrome 97.0.4692.71,,,2022-01-17 15:37:00,2022-01-17 15:37:01,1.214s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  PublicRoom0001/div_Share room""))",Chrome 97.0.4692.71,,,2022-01-17 15:37:01,2022-01-17 15:37:02,0.298s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  PublicRoom0001/img""))",Chrome 97.0.4692.71,,,2022-01-17 15:37:02,2022-01-17 15:37:02,0.445s,PASSED
+,,,,,,,
+Test Cases/4. Room Actions/4. Turn off room notifications,Chrome 97.0.4692.71,,,2022-01-17 15:37:02,2022-01-17 15:37:30,27.873s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.71,,,2022-01-17 15:37:03,2022-01-17 15:37:03,0.933s,PASSED
+"navigateToUrl(""http://localhost:8080/#/welcome"")",Chrome 97.0.4692.71,,,2022-01-17 15:37:03,2022-01-17 15:37:07,3.518s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/a_Sign In""))",Chrome 97.0.4692.71,,,2022-01-17 15:37:07,2022-01-17 15:37:10,3.396s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Sign in with_username""), ""catalontest1"")",Chrome 97.0.4692.71,,,2022-01-17 15:37:10,2022-01-17 15:37:12,2.110s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Username_password""), ""IVP3EFuX5Soi+L5J3PmWRw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:37:12,2022-01-17 15:37:13,0.487s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/input_Forgot password_mx_Login_submit""))",Chrome 97.0.4692.71,,,2022-01-17 15:37:13,2022-01-17 15:37:13,0.336s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Verify with Security Key""))",Chrome 97.0.4692.71,,,2022-01-17 15:37:13,2022-01-17 15:37:21,7.951s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Khoa/Page_Element/input_Security Key_mx_Field_4""), ""KcTIxEe86JlbIbDMhEOGDxm8TOo5sVjpulf8hwfL6DCmnHQLN2q0ty2pbg9r9Jrm7267l8Wa9qCJrW4e/iwRSw=="")",Chrome 97.0.4692.71,,,2022-01-17 15:37:21,2022-01-17 15:37:23,1.525s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/button_Continue""))",Chrome 97.0.4692.71,,,2022-01-17 15:37:23,2022-01-17 15:37:23,0.262s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Done""))",Chrome 97.0.4692.71,,,2022-01-17 15:37:23,2022-01-17 15:37:24,0.991s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_Ctrl K_mx_AccessibleButton mx_LeftPanel_88084c""))",Chrome 97.0.4692.71,,,2022-01-17 15:37:24,2022-01-17 15:37:24,0.365s,PASSED
+"setText(findTestObject(""Object Repository/Khoa/Page_Element/input_Create a new room_dirsearch""), ""publicroom0001"")",Chrome 97.0.4692.71,,,2022-01-17 15:37:24,2022-01-17 15:37:25,1.088s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element/div_View""))",Chrome 97.0.4692.71,,,2022-01-17 15:37:25,2022-01-17 15:37:27,1.838s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  PublicRoom0001/div_PublicRoom0001_mx_AccessibleButton mx_R_7d7dc9""))",Chrome 97.0.4692.71,,,2022-01-17 15:37:27,2022-01-17 15:37:29,1.179s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  PublicRoom0001/div_Room settings""))",Chrome 97.0.4692.71,,,2022-01-17 15:37:29,2022-01-17 15:37:29,0.487s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  PublicRoom0001/span_Notifications""))",Chrome 97.0.4692.71,,,2022-01-17 15:37:29,2022-01-17 15:37:29,0.443s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  PublicRoom0001/label_OffYou wont get any notifications""))",Chrome 97.0.4692.71,,,2022-01-17 15:37:29,2022-01-17 15:37:30,0.327s,PASSED
+"click(findTestObject(""Object Repository/Khoa/Page_Element  PublicRoom0001/div_Room Settings - PublicRoom0001_mx_Acces_ebd30e""))",Chrome 97.0.4692.71,,,2022-01-17 15:37:30,2022-01-17 15:37:30,0.364s,PASSED

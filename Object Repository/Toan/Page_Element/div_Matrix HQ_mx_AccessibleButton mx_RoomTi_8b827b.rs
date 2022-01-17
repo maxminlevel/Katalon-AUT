@@ -6,12 +6,12 @@
    <elementGuidId>f8295310-3b19-41dc-9e8d-47d2b7c77ff2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//section[@id='matrixchat']/div/div/div/div/div/aside/div[3]/div/div/div[8]/div[2]/div/div/div[4]</value>
+         <key>CSS</key>
+         <value>div.mx_AccessibleButton.mx_RoomTile.mx_RoomTile_selected > div.mx_AccessibleButton.mx_RoomTile_menuButton</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.mx_AccessibleButton.mx_RoomTile_menuButton</value>
+         <key>XPATH</key>
+         <value>//section[@id='matrixchat']/div/div[2]/div/div/div/aside/div[3]/div/div/div[4]/div[2]/div/div[2]/div[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -70,14 +70,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_MatrixChat_wrapper&quot;]/div[@class=&quot;mx_MatrixChat&quot;]/div[@class=&quot;mx_LeftPanel_wrapper&quot;]/div[@class=&quot;mx_LeftPanel_wrapper--user&quot;]/div[@class=&quot;mx_LeftPanel&quot;]/aside[@class=&quot;mx_LeftPanel_roomListContainer&quot;]/div[@class=&quot;mx_LeftPanel_roomListWrapper mx_LeftPanel_roomListWrapper_stickyTop&quot;]/div[@class=&quot;mx_LeftPanel_actualRoomListContainer mx_AutoHideScrollbar&quot;]/div[@class=&quot;mx_RoomList&quot;]/div[@class=&quot;mx_RoomSublist&quot;]/div[@class=&quot;mx_RoomSublist_resizeBox&quot;]/div[@class=&quot;mx_RoomSublist_tiles&quot;]/div[@class=&quot;mx_AccessibleButton mx_RoomTile&quot;]/div[@class=&quot;mx_AccessibleButton mx_RoomTile_menuButton&quot;]</value>
+      <value>id(&quot;matrixchat&quot;)/div[@class=&quot;mx_MatrixChat_wrapper&quot;]/div[@class=&quot;mx_MatrixChat&quot;]/div[@class=&quot;mx_LeftPanel_wrapper&quot;]/div[@class=&quot;mx_LeftPanel_wrapper--user&quot;]/div[@class=&quot;mx_LeftPanel&quot;]/aside[@class=&quot;mx_LeftPanel_roomListContainer&quot;]/div[@class=&quot;mx_LeftPanel_roomListWrapper mx_LeftPanel_roomListWrapper_stickyTop&quot;]/div[@class=&quot;mx_LeftPanel_actualRoomListContainer mx_AutoHideScrollbar&quot;]/div[@class=&quot;mx_RoomList&quot;]/div[@class=&quot;mx_RoomSublist&quot;]/div[@class=&quot;mx_RoomSublist_resizeBox&quot;]/div[@class=&quot;mx_RoomSublist_tiles&quot;]/div[@class=&quot;mx_AccessibleButton mx_RoomTile mx_RoomTile_selected&quot;]/div[@class=&quot;mx_AccessibleButton mx_RoomTile_menuButton&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='matrixchat']/div/div/div/div/div/aside/div[3]/div/div/div[8]/div[2]/div/div/div[4]</value>
+      <value>//section[@id='matrixchat']/div/div[2]/div/div/div/aside/div[3]/div/div/div[4]/div[2]/div/div[2]/div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +85,41 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Matrix HQ'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Existed Public Room 00001'])[1]/following::div[11]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='mmmmmmmmmmmm'])[1]/preceding::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Public Room 0002'])[1]/preceding::div[13]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='matrixchat']/div/div/div/div/div/aside/div[3]/div/div/div[8]/div[2]/div/div/div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

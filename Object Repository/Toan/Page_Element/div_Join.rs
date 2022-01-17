@@ -6,12 +6,12 @@
    <elementGuidId>8400bc28-11f7-4730-a705-ce4385cb26bb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div[2]/div/div[2]/div/ol/div/div/div[5]/div</value>
+         <key>CSS</key>
+         <value>div.mx_RoomDirectory_join > div.mx_AccessibleButton.mx_AccessibleButton_hasKind.mx_AccessibleButton_kind_primary</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.mx_AccessibleButton.mx_AccessibleButton_hasKind.mx_AccessibleButton_kind_primary</value>
+         <key>XPATH</key>
+         <value>//div[@id='mx_Dialog_StaticContainer']/div/div/div[3]/div[2]/div/div[2]/div/ol/div/div/div[5]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

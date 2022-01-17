@@ -6,12 +6,12 @@
    <elementGuidId>a3fde26b-0b2c-4593-af90-40386487ee21</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='dirsearch']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input[name=&quot;dirsearch&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='dirsearch']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -54,16 +54,16 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>m</value>
+      <value>id(&quot;mx_Dialog_StaticContainer&quot;)/div[@class=&quot;mx_Dialog_wrapper mx_Dialog_staticWrapper mx_RoomDirectory_dialogWrapper&quot;]/div[@class=&quot;mx_Dialog&quot;]/div[@class=&quot;mx_RoomDirectory_dialog mx_Dialog_fixedWidth&quot;]/div[@class=&quot;mx_RoomDirectory&quot;]/div[@class=&quot;mx_RoomDirectory_list&quot;]/div[@class=&quot;mx_RoomDirectory_listheader&quot;]/div[@class=&quot;mx_DirectorySearchBox mx_RoomDirectory_searchbox mx_textinput&quot;]/input[@class=&quot;mx_textinput_icon mx_textinput_search focus-visible&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>value</name>
       <type>Main</type>
-      <value>id(&quot;mx_Dialog_StaticContainer&quot;)/div[@class=&quot;mx_Dialog_wrapper mx_Dialog_staticWrapper mx_RoomDirectory_dialogWrapper&quot;]/div[@class=&quot;mx_Dialog&quot;]/div[@class=&quot;mx_RoomDirectory_dialog mx_Dialog_fixedWidth&quot;]/div[@class=&quot;mx_RoomDirectory&quot;]/div[@class=&quot;mx_RoomDirectory_list&quot;]/div[@class=&quot;mx_RoomDirectory_listheader&quot;]/div[@class=&quot;mx_DirectorySearchBox mx_RoomDirectory_searchbox mx_textinput&quot;]/input[@class=&quot;mx_textinput_icon mx_textinput_search focus-visible&quot;]</value>
+      <value>m</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

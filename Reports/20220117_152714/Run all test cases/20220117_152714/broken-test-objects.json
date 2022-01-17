@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thang/Page_Element/div_Done",
+      "brokenLocator": "//section[@id\u003d\u0027matrixchat\u0027]/div/div/div[2]/div/div/div/div[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Blog\u0027])[1]/preceding::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220117_152714/Run all test cases/20220117_152714/Object Repository/Thang/Page_Element/div_Done_neighbor.png"
+    }
+  ]
+}
