@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Thang/Page_Element/img",
+      "brokenLocator": "//div[@id\u003d\u0027mx_ContextualMenu_Container\u0027]/div/div[2]/div/div/div[2]/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Thang/Page_Element/img_position.png"
+    }
+  ]
 }
